@@ -2,7 +2,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         /*sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'darksalmon', '#ccddff'],*/
-        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage','fifthPage','sixthPage','seventhPage', 'eighthPage', 'ninthPage','tenthPage'],
+        anchors: ['main', 'what-we-do', 'choose-your-style', 'why-us', 'giftcard', 'how-we-work', 'gallery', 'prices', 'contacts','social'],
         menu: '',
         scrollingSpeed: 500,
         afterRender: function(){

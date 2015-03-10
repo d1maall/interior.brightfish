@@ -21,7 +21,7 @@
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 /*sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'darksalmon', '#ccddff'],*/
-                anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage','fifthPage','sixthPage','seventhPage', 'eighthPage', 'lastPage'],
+                anchors: ['main', 'what-we-do', 'choose-your-style', 'why-us','giftcard','how-we-work','gallery', 'prices', 'lastPage'],
                 menu: '',
                 scrollingSpeed: 1000
             });
@@ -33,12 +33,12 @@
 <!------------------------------------ BODY ---------------------------------------------------------->
 <body>
 <!------------------------------------ MENU  -->
-<!--<div class = "logo"><a href="#firstPage">LOGO</a></div>
+<!--<div class = "logo"><a href="#main">LOGO</a></div>
 <ul id="menu">
-    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">FIRST PAGE</a></li>
-    <li data-menuanchor="secondPage"><a href="#secondPage">SECOND PAGE</a></li>
-    <li data-menuanchor="thirdPage"><a href="#thirdPage">THIRD PAGE</a></li>
-    <li data-menuanchor="fourthPage"><a href="#fourthPage">FOURTH PAGE</a></li>
+    <li data-menuanchor="main" class="active"><a href="#main">FIRST PAGE</a></li>
+    <li data-menuanchor="what-we-do"><a href="#what-we-do">SECOND PAGE</a></li>
+    <li data-menuanchor="choose-your-style"><a href="#choose-your-style">THIRD PAGE</a></li>
+    <li data-menuanchor="why-us"><a href="#why-us">FOURTH PAGE</a></li>
 </ul>
 <div class = "call">
     <div class="button">
@@ -51,12 +51,12 @@
 <div id="fullpage">
 
 <!------------------------------------ SLIDE 1 --------------------------------------------------------> 
-    <div class="section page1 onecolumn" data-anchor="firstPage" >
+    <div class="section page1 onecolumn" data-anchor="main" >
         <div class="bgpic"></div>
         <div class="content1">1</div>
     </div>
 <!------------------------------------ SLIDE 2 -------------------------------------------------------->
-    <div class="section page2 threecolumns" data-anchor="secondPage">
+    <div class="section page2 threecolumns" data-anchor="what-we-do">
         <div class="leftpart c1" >
             <div class="bg1"></div>
             <div class="content">1</div>
@@ -73,7 +73,7 @@
         </div>
     </div>
 <!------------------------------------ SLIDE 3 -------------------------------------------------------->
-    <div class="section page3 twocolumns" data-anchor="thirdPage">
+    <div class="section page3 twocolumns" data-anchor="choose-your-style">
         <div class="lefthalf colorleftp3">
             <p class="title">Настоящая аэрография и ее имитация</p>
             <p class="text">text text text text text text text text text text
@@ -84,16 +84,16 @@
         <div class="righthalf colorrightp3"><div class="img"><img src="./img/trueaerography.jpg" alt="trueaerography"></div></div>
     </div>
 <!------------------------------------ SLIDE 4 -------------------------------------------------------->
-    <div class="section page4 onecolumn colorp4" data-anchor="fourthPage">
+    <div class="section page4 onecolumn colorp4" data-anchor="why-us">
         <p class="title">Почему стоит обратиться к нам</p>
     </div>
 <!------------------------------------ SLIDE 5 -------------------------------------------------------->
-    <div class="section page5 twocolumns" data-anchor="fifthPage">
+    <div class="section page5 twocolumns" data-anchor="giftcard">
         <div class="lefthalf"><p>1</p></div>
         <div class="righthalf"><p>2</p></div>
     </div>
 <!------------------------------------ SLIDE 6 -------------------------------------------------------->
-    <div class="section page6 onecolumn bgcolorp6" data-anchor="sixthPage">
+    <div class="section page6 onecolumn bgcolorp6" data-anchor="how-we-work">
         <!--<div class="blockway">1 обращение</div>--><div id="demo"><div>
         <div class="blockway">2 обсуждение</div>
         <div class="blockway">3 концепт</div>
@@ -103,11 +103,11 @@
         
     </div>
 <!------------------------------------ SLIDE 7 -------------------------------------------------------->
-    <div class="section page7 onecolumn" data-anchor="seventhPage">
+    <div class="section page7 onecolumn" data-anchor="gallery">
         7
     </div>
 <!------------------------------------ SLIDE 8 -------------------------------------------------------->
-    <div class="section page8 onecolumn" data-anchor="eighthPage">
+    <div class="section page8 onecolumn" data-anchor="prices">
        <div class="onecolumn3 threecolumns">
             <div class="leftpart '">1</div>
             <div class="centerpart1 ">2</div>
@@ -125,7 +125,7 @@
         </div>
     </div>
 <!------------------------------------ SLIDE 9 -------------------------------------------------------->
-    <div class="section page9 onecolumn" data-anchor="ninthPage">
+    <div class="section page9 onecolumn" data-anchor="contacts">
         <div id="map"></div>
         <div id="content">
             <h1>Lorem ipsum</h1>
