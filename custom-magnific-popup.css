@@ -92,9 +92,9 @@ fieldset {
 
 .dialogue {
     display: inline-block;
-    background-color: #333333;
     color: #ffffff;
-    font-size: 120%;
+    font-size: 100%;
+    font-weight: 500;
     padding: 1% 3% 1% 1%;
     font-family: "Clear Sans";
     opacity: 0;
@@ -104,13 +104,12 @@ fieldset {
 }
 
 .dialogue-alert {
-    background-color: lightcoral;
+    color: red;
     opacity: 1;
     transition: 0.2s;
 }
 
 .dialogue-name {
-
 }
 
 .knopka{
@@ -145,13 +144,13 @@ fieldset {
 }
 input {
     width : 40%;
-    font-size   : 120%;
+    font-size   : 110%;
     border-radius: 0px;
     border-top: transparent solid  1px;
     border-right: transparent solid 1px;
     border-left: transparent solid 1px;
     border-bottom: #2c2c2c solid 1px;
-    font-family: "Roboto Slab";
+    font-family: "Clear Sans";
     text-align: left;
     background-color: transparent;
     color: #2c2c2c;

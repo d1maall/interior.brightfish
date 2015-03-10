@@ -17,21 +17,21 @@ function send() {
 
     if ($('.name').val() == "") {
         $(".dialogue-name").addClass("dialogue-alert");
-        $(".dialogue-name").text("< Введите имя");
+        $(".dialogue-name").text("Введите имя");
         var namebool = false;
     }
     else {var namebool = true}
 
     if (($('.email').val() == "")||(!validateEmail($('.email').val()))) {
         $(".dialogue-email").addClass("dialogue-alert");
-        $(".dialogue-email").text("< Введите e-mail");
+        $(".dialogue-email").text('Введите e-mail');
         var emailbool = false;
     }
     else {var emailbool = true}
 
     if (($('.phone').val() == "")||(!validatePhone($('.phone').val()))) {
         $(".dialogue-phone").addClass("dialogue-alert");
-        $(".dialogue-phone").text("< Введите номер телефона");
+        $(".dialogue-phone").text("Введите номер телефона");
         var phonebool = false;
     }
     else {var phonebool = true}
