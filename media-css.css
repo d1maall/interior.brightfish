@@ -1,0 +1,241 @@
+
+.menuvisible{
+    display:none;
+}
+
+@media only screen and (min-width: 640px) {
+    /*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
+
+    /*ФОНОВЫЕ ИЗОБРАЖЕНИЯ*/
+    .bgpic {
+        background-image: url(./img/mobail-768/firstbg.jpg);
+    }
+    .page3bg {
+        background-image: url(./img/mobail-768/holi2.jpg);
+    }
+    .page4bg {
+        background-image: url(./img/mobail-768/dust.jpg);
+    }
+    .page5bg {
+        background-image: url(./img/mobail-768/holi.jpg);
+    }
+    .page6bg {
+        background-image: url(./img/mobail-768/dust2.jpg);
+    }
+    .page7bg {
+        background-image: url(./img/mobail-768/dust1.jpg);
+    }
+    .page8bg {
+        background-image: url(./img/mobail-768/holi1.jpg);
+    }
+    .bg1 {
+        background-image: url(./img/mobail-768/left.jpg);
+    }
+    .bg2 {
+        background-image: url(./img/mobail-768/center.jpg);
+    }
+    .bg3 {
+        background-image: url(./img/mobail-768/right.jpg);
+    }
+    /*МЕНЮ*/
+
+    /*СЛАЙД 2*/
+
+    /*СЛАЙД 4*/
+
+    /*ГАЛЕРЕЯ*/
+
+    /*ПРАЙС*/
+
+    /*КАРТА*/
+
+    /*СЛАЙД 10*/
+
+    /*ТЕКСТ*/
+
+    /*КНОПКИ*/
+
+    /*СКРОЛ*/
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    /*Планшеты в режиме portrait.*/
+
+    /*ФОНОВЫЕ ИЗОБРАЖЕНИЯ*/
+
+    .bgpic {
+        background-image: url(./img/board-1280/firstbg.jpg);
+    }
+    .page3bg {
+        background-image: url(./img/board-1280/holi2.jpg);
+    }
+    .page4bg {
+        background-image: url(./img/board-1280/dust.jpg);
+    }
+    .page5bg {
+        background-image: url(./img/board-1280/holi.jpg);
+    }
+    .page6bg {
+        background-image: url(./img/board-1280/dust2.jpg);
+    }
+    .page7bg {
+        background-image: url(./img/board-1280/dust1.jpg);
+    }
+    .page8bg {
+        background-image: url(./img/board-1280/holi1.jpg);
+    }
+    .bg1 {
+        background-image: url(./img/board-1280/left.jpg);
+    }
+    .bg2 {
+        background-image: url(./img/board-1280/center.jpg);
+    }
+    .bg3 {
+        background-image: url(./img/board-1280/right.jpg);
+    }
+
+    /*МЕНЮ*/
+    .menuvisible{
+        display: block;
+    }
+    /*СЛАЙД 2*/
+
+    /*СЛАЙД 4*/
+
+    /*ГАЛЕРЕЯ*/
+
+    /*ПРАЙС*/
+
+    /*КАРТА*/
+
+    /*СЛАЙД 10*/
+
+    /*ТЕКСТ*/
+
+    /*КНОПКИ*/
+
+    /*СКРОЛ*/
+}
+
+@media only screen and (min-width: 1300px) {
+
+    /*Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.*/
+
+    /*ФОНОВЫЕ ИЗОБРАЖЕНИЯ*/
+
+    .bgpic {
+        background-image: url(./img/notebook-1680/firstbg.jpg);
+    }
+    .page3bg {
+        background-image: url(./img/notebook-1680/holi2.jpg);
+    }
+    .page4bg {
+        background-image: url(./img/notebook-1680/dust.jpg);
+    }
+    .page5bg {
+        background-image: url(./img/notebook-1680/holi.jpg);
+    }
+    .page6bg {
+        background-image: url(./img/notebook-1680/dust2.jpg);
+    }
+    .page7bg {
+        background-image: url(./img/notebook-1680/dust1.jpg);
+    }
+    .page8bg {
+        background-image: url(./img/notebook-1680/holi1.jpg);
+    }
+    .bg1 {
+        background-image: url(./img/notebook-1680/left.jpg);
+    }
+    .bg2 {
+        background-image: url(./img/notebook-1680/center.jpg);
+    }
+    .bg3 {
+        background-image: url(./img/notebook-1680/right.jpg);
+    }
+
+    /*МЕНЮ*/
+    .menuvisible{
+        display: block;
+    }
+    /*СЛАЙД 2*/
+
+    /*СЛАЙД 4*/
+
+    /*ГАЛЕРЕЯ*/
+
+    /*ПРАЙС*/
+
+    /*КАРТА*/
+
+    /*СЛАЙД 10*/
+
+    /*ТЕКСТ*/
+
+    /*КНОПКИ*/
+
+    /*СКРОЛ*/
+}
+
+@media only screen and (min-width: 1900px) {
+
+    /*Десктоп с большими разрешениями, телевизоры.*/
+
+    /*ФОНОВЫЕ ИЗОБРАЖЕНИЯ*/
+
+    .bgpic {
+        background-image: url(./img/tv-2048/firstbg.jpg);
+    }
+    .page3bg {
+        background-image: url(./img/tv-2048/holi2.jpg);
+    }
+    .page4bg {
+        background-image: url(./img/tv-2048/dust.jpg);
+    }
+    .page5bg {
+        background-image: url(./img/tv-2048/holi.jpg);
+    }
+    .page6bg {
+        background-image: url(./img/tv-2048/dust2.jpg);
+    }
+    .page7bg {
+        background-image: url(./img/tv-2048/dust1.jpg);
+    }
+    .page8bg {
+        background-image: url(./img/tv-2048/holi1.jpg);
+    }
+    .bg1 {
+        background-image: url(./img/tv-2048/left.jpg);
+    }
+    .bg2 {
+        background-image: url(./img/tv-2048/center.jpg);
+    }
+    .bg3 {
+        background-image: url(./img/tv-2048/right.jpg);
+    }
+    /*МЕНЮ*/
+    .menuvisible{
+        display: block;
+    }
+    /*СЛАЙД 2*/
+
+    /*СЛАЙД 4*/
+
+    /*ГАЛЕРЕЯ*/
+
+    /*ПРАЙС*/
+
+    /*КАРТА*/
+
+    /*СЛАЙД 10*/
+
+    /*ТЕКСТ*/
+
+    /*КНОПКИ*/
+
+    /*СКРОЛ*/
+}
+
+
