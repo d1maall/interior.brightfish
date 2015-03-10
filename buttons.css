@@ -1,0 +1,195 @@
+.btn {
+    opacity: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    color: #FFCC01;
+    font-size: 1.3em;
+    padding: 10px 10px 10px 10px;
+    border: solid #ffffff 1px;
+    text-decoration: none;
+    margin-left: 10%;
+    width: 28%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: inherit;
+    margin-top: 5%;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #FFCC01;
+}
+
+.btn a:active {
+
+}
+
+.btn6 {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    color: #FFCC01;
+    font-size: 1.4em;
+    padding: 10px 10px 10px 10px;
+    border: solid #fff 1px;
+    text-decoration: none;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: inherit;
+    margin-top: 3%;
+    opacity: 0;
+}
+
+.btn4 {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    color: #FFCC01;
+    font-size: 1.1em;
+    padding: 10px 10px 10px 10px;
+    border: solid #fff 1px;
+    text-decoration: none;
+    margin-left: 10%;
+    /*margin-right: 40%;*/
+    width: 28%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: inherit;
+    margin-top: 5%;
+    opacity: 0;
+
+}
+.btnpage1{
+   -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: 'Clear Sans';
+    font-weight: 100;
+    color: #ffcc01;
+    font-size: 20%;
+    padding: 10px 10px 10px 10px;
+    border: solid #fff 1px;
+    text-decoration: none;
+    margin-left: 39%;
+    margin-right: 39%;
+    width: 24%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    /*background-color: #fffcf2;*/
+    margin-top: 5%; 
+}
+
+.btn8 {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    color: #FFCC01;
+    font-size: 1.3em;
+    padding: 10px 5px 10px 5px;
+    border: solid #fff 1px;
+    text-decoration: none;
+    margin-left: 38%;
+    margin-right: 40%;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: inherit;
+    margin-top: 1%;
+}
+
+.appear {
+    opacity: 1;
+    transition: 2s;
+}
+
+
+.btn2{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: 'Clear Sans';
+    font-weight: 300;
+    color: #FFCC01;
+    font-size: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid #FFf 1px;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 5%;
+    opacity: 0;
+}
+.topleft{ margin-top: 13%;}
+.topcenter{margin-top: 27%;}
+.topright{margin-top: 13%}
+
+.btn2left {
+    display: none;
+}
+
+.btn2center {
+    display: none;
+}
+
+.btn2right {
+    display: none;
+}
+
+.btn2display {
+    opacity: 0;
+    display: block;
+}
+
+.btn2appear {
+    opacity: 1;
+    transition: 1s;
+}
+.btn3 {
+    opacity: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    color: #FFCC01;
+    font-size: 1.3em;
+    padding: 10px 10px 10px 10px;
+    border: solid #ffffff 1px;
+    text-decoration: none;
+    margin-left: 10%;
+    width: 28%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: inherit;
+    margin-top: 9%;
+}
+
+.btn3 a{
+    text-decoration: none;
+    color: #FFCC01;
+}
+
+.btn3 a:active {}

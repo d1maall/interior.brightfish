@@ -1,0 +1,639 @@
+<!-- сайт компании Bright Fish -->
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<!-------------------------------------- HEADER ---------------------------------------------------->
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript" src="fullPageAnimation.js"></script>
+    <script type="text/javascript" src="jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="gallery.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="map.js" type="text/javascript"></script>
+    <script src="jquery.flex-images.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="pace.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="slider.css" />
+    <link rel="stylesheet" type="text/css" href="text.css" />
+    <link rel="stylesheet" type="text/css" href="colorpage.css" />
+    <link rel="stylesheet" type="text/css" href="buttons.css" />
+    <link rel="stylesheet" type="text/css" href="menu.css"/>
+    <link rel="stylesheet" type="text/css" href="way.css"/>
+    <link rel="stylesheet" type="text/css" href="pricelist.css"/>
+    <link rel="stylesheet" type="text/css" href="gallary.css"/>
+    <link rel="stylesheet" type="text/css" href="social.css"/>
+    <link rel="stylesheet" type="text/css" href="animate.css" />
+    <link rel="stylesheet" type="text/css" href="magnific-popup.css"/>
+    <link rel="stylesheet" type="text/css" href="custom-magnific-popup.css"/>
+    <link rel="stylesheet" type="text/css" href="prices.css"/>
+    <link rel="stylesheet" type="text/css" href="map.css">
+    <link rel="stylesheet" type="text/css" href="jquery.flex-images.css">
+    <link rel="stylesheet" type="text/css" href="pace_theme.css">
+
+    <link rel="stylesheet" href="justifiedGallery.min.css" />
+    <script src="jquery.justifiedGallery.min.js"></script>
+</head>
+<!------------------------------------ END OF HEADER -------------------------------------------------->
+
+<!------------------------------------ BODY ---------------------------------------------------------->
+<body>
+<!------------------------------------ MENU  -->
+<div class="navbar">
+    <div class="logo menusection">
+        <a  href="#firstPage">
+        <div><img src="./img/logo2.svg" alt=""></div>
+        </a>
+    </div>
+    <div class="menu menusection">
+        <ul>
+
+            <li><a class = "menuitem" href="#fifthPage">подарочная карта</a></li>
+            <li><a class = "menuitem" href="#seventhPage">галерея</a></li>
+            <li><a class = "menuitem" href="#eighthPage">цены</a></li>
+            <li><a class = "menuitem" href="#ninthPage">контакты</a></li>
+            <li ><div class="call"> <a href="http://auto.bright-fish.ru/"><div class="callhalf">аэрография</div></a><div class="line"></div><a href="tel:84996383073"><div class="callhalf">+7 499 638-30-73</div></a></div></li>
+        </ul>
+    </div>
+    
+</div>
+<!------------------------------------ END OF MENU ---------------------------------------------------->
+
+<!------------------------------------ FULL PAGE AEROGRAPHY -------------------------------------------->
+<div id="fullpage">
+
+<!------------------------------------ SLIDE 1 -------------------------------------------------------->
+    <div class="section page1 onecolumn" data-anchor="firstPage" >
+        <div class="bgpic"></div>
+        <div class="content1">
+            <div class="titlepage1">Профессиональная <nobr>роспись интерьеров</nobr></div>
+            <div>
+                <a class = "popup-with-form btnpage1" href="#form1">ЗАКАЗАТЬ ЗВОНОК</a>
+                <form id="form1" class="white-popup-block mfp-hide">
+                    <div class="titleform">Мы вам перезвоним</div>
+                    <ul>
+                        <li>
+                            <input class="name" name="name" type="text" placeholder="Имя">
+                        </li>
+                        <li>
+                            <input class="email" name="email" type="email" placeholder="E-mail">
+                        </li>
+                        <li>
+                            <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                        </li>
+                    </ul>
+                    <div class="knopka" onclick="send()">Отправить</div>
+                </form>
+            </div>
+            <div class="animated infinite scroll bounce"><a href="#secondPage" class=""><img src="./img/arrow1.svg" alt=""></a></div>
+        </div>
+    </div>
+
+<!------------------------------------ SLIDE 2 -------------------------------------------------------->
+    <div class="section page2 threecolumns" data-anchor="secondPage">
+        <div class="leftpart c1" >
+            <div class="bg1"></div>
+            <div class="slidercontent slidercontentleft title2 ">
+                <div class="icon1"><img  src="./img/restaran.svg" alt=""></div>
+                <div class = "slide2titleleft">рестораны  и  <nobr>ночные клубы</nobr></div>
+                <div class="textsl2 textsl2left">Мы сделаем ваше заведение популярным! В конкурентной борьбе нужно
+                    постоянно искать новые способы
+                    привлечения аудитории. Роспись интерьеров и фасадов гарантированно увеличит поток посетителей
+                    в ваше заведение!
+                </div>
+                <div>
+                    <a class = "popup-with-form btn2 btn2left topleft" href="#form2">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
+                    <form id="form2" class="white-popup-block mfp-hide">
+                        <div class="titleform">получить консультацию</div>
+                        <ul>
+                            <li>
+                                <input class="name" name="name" type="text" placeholder="Имя">
+                            </li>
+                            <li>
+                                <input class="email" name="email" type="email" placeholder="E-mail">
+                            </li>
+                            <li>
+                                <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                            </li>
+                        </ul>
+                        <div class="knopka" onclick="send()">Отправить</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="centerpart c2">
+            <div class="bg2"></div>
+            <div class="slidercontent slidercontentcenter title2">
+                <div class="icon1"><img class="svg" src="./img/flat.svg" alt=""></div>
+                <div class="slide2titlecenter">квартиры и офисы</div>
+                <div class="textsl2 textsl2center">Здесь вы проводите большую часть своей жизни. Красивые и оригинальные
+                    рисунки на стенах оживляют и украшают любой интерьер и придают неповторимый уют комнате.
+                </div>
+                <div>
+                    <a class = "popup-with-form btn2 btn2center topcenter" href="#form3">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
+                    <form id="form3" class="white-popup-block mfp-hide">
+                        <div class="titleform">получить консультацию</div>
+                        <ul>
+                            <li>
+                                <input class="name" name="name" type="text" placeholder="Имя">
+                            </li>
+                            <li>
+                                <input class="email" name="email" type="email" placeholder="E-mail">
+                            </li>
+                            <li>
+                                <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                            </li>
+                        </ul>
+                        <div class="knopka" onclick="send()">Отправить</div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="rightpart c3">
+            <div class="bg3"></div>
+            <div class="slidercontent slidercontentright title2">
+                <div class="icon1"><img class="svg" src="./img/refrigerator.svg" alt=""></div>
+                <div class="slide2titleright">мебель и <nobr>бытовая техника</nobr></div>
+                <div class="textsl2 textsl2right">Вам нравятся цветные холодильники и другая бытовая техника с
+                    оригинальным декором? Мы будем рады создать эксклюзивный проект вашей мечты, если вы захотите
+                    преобразить свою мебель или предметы интерьера!</div>
+                <div>
+                    <a class = "popup-with-form btn2 btn2right topright" href="#form4">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
+                    <form id="form4" class="white-popup-block mfp-hide">
+                        <div class="titleform">получить консультацию</div>
+                        <ul>
+                            <li>
+                                <input class="name" name="name" type="text" placeholder="Имя">
+                            </li>
+                            <li>
+                                <input class="email" name="email" type="email" placeholder="E-mail">
+                            </li>
+                            <li>
+                                <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                            </li>
+                        </ul>
+                        <div class="knopka" onclick="send()">Отправить</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class=" scroll sc2"><a href="#thirdPage" class=""><img src="./img/arrow1.svg" alt=""></a></div>
+
+    </div>
+    <!------------------------------------ SLIDE 3 ------------------------->
+    <div class="section page3 twocolumns" data-anchor="thirdPage">
+        <div class="page3bg"></div>
+        <div class="lefthalf colorleftp3">
+            <div class="title tt1">Выбери свой стиль!<div class=" cherta">&mdash;</div></div>
+            <div class="text">
+                Возможности интерьерной росписи открывают огромный простор для вашей фантазии.
+                Наша Студия может предложить вам классическую роспись, фотореализм, флуоресцентную и люминесцентную
+                роспись и многое другое.</br>
+               Например, светящиеся рисунки (флуоресцентными или люминесцентными красками) особенно эффектно смотрятся в детской,
+                или гостиной комнате, а так же в ночных клубах, барах и ресторанах.
+                Такие рисунка наносятся в два этапа - сначала рисуется та часть рисунка, которая видна в дневном свете,
+                а потом специальными красками рисуется светящаяся часть картины.
+            </div>
+            <a class = "popup-with-form " href="#form5"><div class="btn3">РАЗРАБОТАТЬ ПРОЕКТ</div></a>
+            <form id="form5" class="white-popup-block mfp-hide">
+                <div class="titleform">разработать проект</div>
+                <ul>
+                    <li>
+                        <input class="name" name="name" type="text" placeholder="Имя">
+                    </li>
+                    <li>
+                        <input class="email" name="email" type="email" placeholder="E-mail">
+                    </li>
+                    <li>
+                        <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                    </li>
+                </ul>
+                <div class="knopka" onclick="send()">Отправить</div>
+            </form>
+            </a>
+            <div class=" scroll sc3 "><a href="#fourthPage" class=""><img src="./img/arrow1.svg" alt=""></a></div>
+        </div>
+    </div>
+
+    <!------------------------------------ SLIDE 4 -------------------------------------------------------->
+    <div class="section  " data-anchor="forthPage">
+        <div class="page4bg"></div>
+        <div class="p4container colorp4">
+            <div class="widthtitle">
+                <div class="title tt2 ">Почему&nbsp;стоит  обратиться  к  нам?<div class=" cherta">&mdash;</div></div>
+            </div>
+            <div class=" vertical">
+            <div class="infogr st1 infograffirst">
+                <div class="icon"><img  src="./img/kach.svg" alt=""></div>
+                <div class="text1">Отличное качество</div>
+            </div>
+            <div class="infogr st2">
+                <div class="icon"><img  src="./img/painter.svg" alt=""></div>
+                <div class="text1">Лучшие художники</div>
+            </div>
+            <div class="infogr st3">
+                <div class="icon"><img  src="./img/project.svg" alt=""></div>
+                <div class="text1">Уникальный проект</div>
+            </div>
+            <div class="infogr st4">
+                <div class="icon"><img  src="./img/time.svg" alt=""></div>
+                <div class="text1">Соблюдение сроков</div>
+            </div>
+             <div class="infogr st5">
+                 <div class="icon"><img  src="./img/eco.svg" alt=""></div>
+                 <div class="text1">Экологичные материалы</div>
+             </div>
+             <div class="infogr st6">
+                 <div class="icon"><img  src="./img/garant.svg" alt=""></div>
+                 <div class="text1">Гарантия до 3-х лет</div>
+             </div>
+            </div>
+            <div class="widthtitle"><a class = "popup-with-form " href="#form4"><div class="btn4"> ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ </div></a>
+                <form id="form6" class="white-popup-block mfp-hide">
+                    <div class="titleform">получить консультацию</div>
+                    <ul>
+                        <li>
+                            <input class="name" name="name" type="text" placeholder="Имя">
+                        </li>
+                        <li>
+                            <input class="email" name="email" type="email" placeholder="E-mail">
+                        </li>
+                        <li>
+                            <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                        </li>
+                    </ul>
+                    <div class="knopka" onclick="send()">Отправить</div>
+                </form>
+            </div>
+            <div class=" scroll sc4"><a href="#fifthPage" class=""><img src="./img/arrow1.svg" alt=""></a></div>
+        </div>
+
+
+    </div>
+<!------------------------------------ SLIDE 5 -------------------------------------------------------->
+    <div class="section page5 twocolumns" data-anchor="fifthPage">
+        <div class="page5bg"></div>
+        <div class="lefthalf colorp5left">
+            <div class="title5">Уникальная роспись — лучший подарок<div class=" cherta">&mdash;</div></div>
+            <div class="text5">У нас есть универсальные подарки для Ваших родных, коллег и друзей —
+                подарочные карты открытого номинала в нашем фирменном стиле.</div>
+
+            <a class = "popup-with-form " href="#form7"><div class="btn"> ЗАКАЗАТЬ ПОДАРОЧНУЮ КАРТУ</div></a>
+            <form id="form7" class="white-popup-block mfp-hide">
+                <div class="titleform">заказать подарочную карту</div>
+                <ul>
+                    <li>
+                        <input class="name" name="name" type="text" placeholder="Имя">
+                    </li>
+                    <li>
+                        <input class="email" name="email" type="email" placeholder="E-mail">
+                    </li>
+                    <li>
+                        <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                    </li>
+                </ul>
+                <div class="knopka" onclick="send()">Отправить</div>
+            </form>
+            <div class=" scroll sc5 "><a href="#sixthPage" class=""><img src="./img/arrow1.svg" alt=""></a></div>
+        </div>
+    </div>
+<!------------------------------------ SLIDE 6 -------------------------------------------------------->
+    <div class="section page6  bgcolorp6" data-anchor="sixthPage">
+        <div class="page6bg"></div>
+        <div class="waypage">
+        <div class="titleway">Как мы работаем?</div>
+        <div class="waycontainer">
+            <div class="blockway wayfirst bw1">
+                <div class="icon2 "><img  src="./img/offer.svg" alt=""><nobr>заявка на работу</nobr></div>
+            </div>
+            <div class="blockway bw2">
+                <div class="icon2 roth"><img src="./img/arrow.svg" alt=""></div>
+            </div>
+            <div class="blockway bw3">
+                <div class="iconcar"><img src="./img/fast.svg" alt=""><nobr>выезд художника</nobr></div>
+            </div>
+            <div class="blockway bw4">
+                <div class="icon2 roth"><img src="./img/arrow.svg" alt=""></div>
+            </div>
+            <div class="blockway waylast bw5">
+                <div class="icon2"><img src="./img/skech.svg" alt=""><nobr>три эскиза</nobr></div>
+            </div>
+            <div class="blockway1 wayfirst wayblank "></div>
+            <div class="blockway1 waylast bw6 ">
+                <div class="icon3 "><img src="./img/arrow1.svg" alt=""></div>
+            </div>
+            <div class="blockway wayfirst  waybt bw11">
+                <div class="icon2"><img src="./img/credit.svg" alt="">скидочная карта</div>
+            </div>
+            <div class="blockway waybt bw10">
+                <div class="icon2 "><img src="./img/arrow.svg" alt=""></div>
+            </div>
+            <div class="blockway waybt bw9">
+                <div class="icon2"><img src="./img/smile1.svg" alt="">готовый проект</div>
+            </div>
+            <div class="blockway waybt bw8">
+                <div class="icon2 "><img src="./img/arrow.svg" alt=""></div>
+            </div>
+            <div class="blockway waylast waybt bw7">
+                <div class="icon2"><img src="./img/do1.svg" alt="">выполнение</div>
+            </div><!---->
+
+        </div>
+            <a class = "popup-with-form  " href="#form8"><div class="btn6"> ПОРАБОТАТЬ С НАМИ</div></a>
+            <form id="form8" class="white-popup-block mfp-hide">
+                <div class="titleform">заказать проект</div>
+                <ul>
+                    <li>
+                        <input class="name" name="name" type="text" placeholder="Имя">
+                    </li>
+                    <li>
+                        <input class="email" name="email" type="email" placeholder="E-mail">
+                    </li>
+                    <li>
+                        <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                    </li>
+                </ul>
+                <div class="knopka" onclick="send()">Отправить</div>
+            </form>
+            <div class=" scroll sc6"><a href="#seventhPage" class=""><img src="./img/arrow1.svg" alt=""></a></div>
+
+        </div>
+    </div>
+<!------------------------------------ SLIDE 7 -------------------------------------------------------->
+    <div class="section page7 colorp7" data-anchor="seventhPage">
+        <div class="page7bg"></div>
+        <div class="galbigblock">
+            <div class="titlegal">
+                Наши работы<div class=" cherta">&mdash;</div>
+            </div>
+            <div class ="contentgal">
+                <div id="basicExample">
+                    <div class="item gallery1"><img src="./img/wall/preview/1wallgal.jpg"/></div>
+                    <div class="item gallery2"><img src="./img/wall/preview/2wallgal.jpg"/></div>
+                    <div class="item gallery3"><img src="./img/wall/preview/3wallgal.jpg"/></div>
+                    <div class="item gallery4"><img src="./img/wall/preview/4wallgal.jpg"/></div>
+                    <div class="item gallery5"><img src="./img/wall/preview/5wallgal.jpg"/></div>
+                    <div class="item gallery6"><img src="./img/wall/preview/6wallgal.jpg"/></div>
+                    <!--
+                    <div class="item">
+                        <a class = "popup-with-form" href="#form9"><div class="item"><img src="./img/seemore.png"/></div></a>
+                        <form id="form9" class="white-popup-block mfp-hide">
+                            <div class="titleform">посмотреть больше работ</div>
+                            <ul>
+                                <li>
+                                    <input class="name" name="name" type="text" placeholder="Имя">
+                                </li>
+                                <li>
+                                    <input class="email" name="email" type="email" placeholder="E-mail">
+                                </li>
+                                <li>
+                                    <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                                </li>
+                            </ul>
+                            <div class="knopka" onclick="send()">Отправить</div>
+                        </form>
+                    </div>
+                    -->
+                </div>
+                <script>
+                    $("#basicExample").justifiedGallery({
+                        rowHeight : 145,
+                        fixedHeight: true,
+                        lastRow : 'justify',
+                        randomize: true
+                    });
+                </script>
+                <div class=" scroll sc7"><a href="#eighthPage" class=""><img src="./img/arrow1.svg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+<!------------------------------------ SLIDE 8 -------------------------------------------------------->
+    <div class="section page8 colorp8" data-anchor="eighthPage">
+        <div class="page8bg"></div>
+        <div class="priceconteiner">
+        <div class="titleprice">наши цены</div>
+            <div class="prbigblock">
+        <div class=" priceblock pricefirst price1">
+            <div class="pp8 "></div>
+            <div class="priceimg abg1 "> </div>
+            <div class="pricehover pricetext pricetext1">трафарет<div class="prcherta">&mdash;</div> от 1500₽ за м <sup>2 </sup></div>
+        </div>
+        <div class="priceblock price2">
+            <div class="pp8"></div>
+            <div class="priceimg abg2"></div>
+            <div class="pricehover pricetext pricetext2 prbigtext">граффити + <nobr>кисти/валик</nobr><div class="prcherta">&mdash;</div> от 1800₽ за м <sup>2 </sup></div>
+        </div>
+        <div class="priceblock price3">
+            <div class="pp8"></div>
+            <div class="priceimg abg3"></div>
+            <div class="pricehover pricetext pricetext3">граффити<div class="prcherta">&mdash;</div> от 2200₽ за м <sup>2 </sup></div>
+        </div>
+        <div class="priceblock pricelast price4">
+            <div class="pp8"></div>
+            <div class="priceimg abg4"></div>
+            <div class="pricehover pricetext pricetext4 prbigtext">"мультяшки" заливкой<div class="prcherta">&mdash;</div> от 3600₽ за м <sup>2 </sup></div>
+        </div>
+        <div class="priceblock pricefirst  prline2 price5">
+            <div class="pp8"></div>
+            <div class="priceimg abg5"></div>
+            <div class="pricehover pricetext pricetext5 prbigtext">"мультяшки" с объемом<div class="prcherta">&mdash;</div>от 5400₽ за м <sup>2 </sup></div>
+        </div>
+        <div class="priceblock  prline2 price6">
+            <div class="pp8"></div>
+            <div class="priceimg abg6"></div>
+            <div class="pricehover pricetext pricetext6">классика/реализм<div class="prcherta">&mdash;</div>от 8100₽ за м <sup>2 </sup></div>
+        </div>
+        <div class="priceblock  prline2 price7">
+            <div class="pp8"></div>
+            <div class="priceimg abg7"></div>
+            <div class="pricehover pricetext pricetext7">фотореализм<div class="prcherta">&mdash;</div>от 12600₽ за м <sup>2 </sup> </div>
+        </div>
+        <div class="priceblock pricelast  prline2 price8">
+            <div class="pp8"></div>
+            <div class="priceimg abg8"></div>
+            <div class="pricehover pricetext pricetext8 ">масло<div class="prcherta">&mdash;</div>от 12600₽ за м <sup>2 </sup></div>
+        </div><!---->
+            </div>
+            <a class = "popup-with-form" href="#form10"><div class="btn8"> РАССЧИТАТЬ ПРОЕКТ</div></a>
+            <form id="form10" class="white-popup-block mfp-hide">
+                <div class="titleform">заказать расчет проекта</div>
+                <ul>
+                    <li>
+                        <input class="name" name="name" type="text" placeholder="Имя">
+                    </li>
+                    <li>
+                        <input class="email" name="email" type="email" placeholder="E-mail">
+                    </li>
+                    <li>
+                        <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                    </li>
+                </ul>
+                <div class="knopka" onclick="send()">Отправить</div>
+            </form>
+            <!---->
+            <div class=" scroll sc8 "><a href="#ninthPage" class=""><img src="./img/arrow1.svg" alt=""></a></div>
+        </div>
+    </div>
+<!------------------------------------ SLIDE 9 -------------------------------------------------------->
+    <div class="section page9 colorp9" data-anchor="ninthPage">
+        <div id="map"></div>
+        <div class=" scroll sc9 "><a href="#tenthPage" class=""><img src="./img/arrow2.svg" alt=""></a></div>
+    </div>
+
+<!------------------------------------ SLIDE 10 -------------------------------------------------------->
+    <div class="section page1 colorp9" data-anchor="tenthPage">
+        <div class="bgpic"></div>
+        <div class="content10">
+            <div class="blockicon">
+                <div class="socialblock socfirst" ><a href="https://www.facebook.com/artBrightFish" target="_blank"><div class="icon10"><img src="./img/face.svg" alt=""></div></a></div>
+                <div class="socialblock" ><a href="https://instagram.com/bright_fish_aerography/" target="_blank"><div class="icon10"><img  src="./img/inst.svg" alt=""></div></a></div>
+                <div class="socialblock" ><a href="https://vk.com/brightfish" target="_blank"><div class="icon10"><img src="./img/vk.svg" alt=""></div></a></div>
+                <!--<div class="socialblock"><div class="icon10"><img src="./img/utb.svg" alt=""></div></div>-->
+                <div class="socialblock soclast" ><a href="http://ok.ru/group/52616441626714" target="_blank"><div class="icon10"><img src="./img/class1.svg" alt=""></div></a></div>
+            </div>
+            <div class = "socialtextblock">
+                <div class="emailus">
+                    <a href="mailto:info@bright-fish.ru">info@bright-fish.ru</a>
+                </div>
+                <div class="soctext">
+                    Все права защищены 2015 | <a href="licence.html" class="popup-ajax">Политика конфиденциальности</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!------------------------------------ END OF FULL PAGE AEROGRAPHY  ------------------------------------>
+<script type="text/javascript">
+    $(".c1").hover(function(){
+        $(".c1").toggleClass("c1hovered");
+        $(".bg1").toggleClass("bghovered");
+        $(".c2").toggleClass("c2hover");
+        $(".c3").toggleClass("c3hover");
+        $(".slidercontentleft").toggleClass("slidercontentup");
+        $(".slide2titleleft").toggleClass("slide2title");
+        setTimeout(function(){
+            $(".slide2titleleft").toggleClass("slide2titledisappear");
+        }, 500);
+        setTimeout(function(){
+            $(".textsl2left").toggleClass("textsl2appear");
+        }, 0);
+        setTimeout(function(){
+            $(".textsl2left").toggleClass("textsl2visible animated fadeInUp");
+        }, 500);
+        setTimeout(function(){
+            $(".btn2left").toggleClass("btn2display");
+        }, 0);
+        setTimeout(function(){
+            $(".btn2left").toggleClass("btn2appear animated fadeInUp");
+        }, 1000);
+        console.log("div was hovered");
+    });
+    $(".c2").hover(function(){
+        $(".c1").toggleClass("c1hover");
+        $(".bg2").toggleClass("bghovered");
+        $(".c2").toggleClass("c2hovered");
+        $(".c3").toggleClass("c3hover");
+        $(".slidercontentcenter").toggleClass("slidercontentup");
+        $(".slide2titlecenter").toggleClass("slide2title");
+        setTimeout(function(){
+            $(".slide2titlecenter").toggleClass("slide2titledisappear");
+        }, 500);
+        setTimeout(function(){
+            $(".textsl2center").toggleClass("textsl2appear");
+        }, 0);
+        setTimeout(function(){
+            $(".textsl2center").toggleClass("textsl2visible animated fadeInUp");
+        }, 500);
+        setTimeout(function(){
+            $(".btn2center").toggleClass("btn2display");
+        }, 0);
+        setTimeout(function(){
+            $(".btn2center").toggleClass("btn2appear animated fadeInUp");
+        }, 1000);
+        console.log("div was hovered");
+    });
+    $(".c3").hover(function(){
+        $(".c1").toggleClass("c1hover");
+        $(".bg3").toggleClass("bghovered");
+        $(".c2").toggleClass("c2hover");
+        $(".c3").toggleClass("c3hovered");
+        $(".slidercontentright").toggleClass("slidercontentup");
+        $(".slide2titleright").toggleClass("slide2title");
+        setTimeout(function(){
+            $(".slide2titleright").toggleClass("slide2titledisappear");
+        }, 500);
+        setTimeout(function(){
+            $(".textsl2right").toggleClass("textsl2appear");
+        }, 0);
+        setTimeout(function(){
+            $(".textsl2right").toggleClass("textsl2visible animated fadeInUp");
+        }, 500);
+        setTimeout(function(){
+            $(".btn2right").toggleClass("btn2display");
+        }, 0);
+        setTimeout(function(){
+            $(".btn2right").toggleClass("btn2appear animated fadeInUp");
+        }, 1000);
+        console.log("div was hovered");
+    });
+
+    $(".price1").hover(function() {
+        $(".abg1").toggleClass("priceonhover");
+        $(".pricetext1").toggleClass("textvisibility");
+    });
+
+    $(".price2").hover(function() {
+        $(".abg2").toggleClass("priceonhover");
+        $(".pricetext2").toggleClass("textvisibility");
+    });
+
+    $(".price3").hover(function() {
+        $(".abg3").toggleClass("priceonhover");
+        $(".pricetext3").toggleClass("textvisibility");
+    });
+
+    $(".price4").hover(function() {
+        $(".abg4").toggleClass("priceonhover");
+        $(".pricetext4").toggleClass("textvisibility");
+    });
+
+    $(".price5").hover(function() {
+        $(".abg5").toggleClass("priceonhover");
+        $(".pricetext5").toggleClass("textvisibility");
+    });
+
+    $(".price6").hover(function() {
+        $(".abg6").toggleClass("priceonhover");
+        $(".pricetext6").toggleClass("textvisibility");
+    });
+
+    $(".price7").hover(function() {
+        $(".abg7").toggleClass("priceonhover");
+        $(".pricetext7").toggleClass("textvisibility");
+    });
+
+    $(".price8").hover(function() {
+        $(".abg8").toggleClass("priceonhover");
+        $(".pricetext8").toggleClass("textvisibility");
+    });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- Сайт сделан Латышевым Дмитрием и Кузнецовой Ольгой специально для компании Bright Fish  в 2015 году-->

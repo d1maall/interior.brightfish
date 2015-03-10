@@ -1,0 +1,171 @@
+<!-- сайт компании Bright Fish -->
+<!DOCTYPE HTML>
+<html>
+<!-------------------------------------- HEADER ---------------------------------------------------->
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="map.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="map.css">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="slider.css" />
+    <link rel="stylesheet" type="text/css" href="text.css" />
+    <link rel="stylesheet" type="text/css" href="colorpage.css" />
+    <link rel="stylesheet" type="text/css" href="buttons.css" />
+    <link rel="stylesheet" type="text/css" href="way.css" />
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                /*sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'darksalmon', '#ccddff'],*/
+                anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage','fifthPage','sixthPage','seventhPage', 'eighthPage', 'lastPage'],
+                menu: '',
+                scrollingSpeed: 1000
+            });
+        });
+    </script>
+</head>
+<!------------------------------------ END OF HEADER -------------------------------------------------->
+
+<!------------------------------------ BODY ---------------------------------------------------------->
+<body>
+<!------------------------------------ MENU  -->
+<!--<div class = "logo"><a href="#firstPage">LOGO</a></div>
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">FIRST PAGE</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">SECOND PAGE</a></li>
+    <li data-menuanchor="thirdPage"><a href="#thirdPage">THIRD PAGE</a></li>
+    <li data-menuanchor="fourthPage"><a href="#fourthPage">FOURTH PAGE</a></li>
+</ul>
+<div class = "call">
+    <div class="button">
+        CALL
+    </div>
+</div>-->
+<!------------------------------------ END OF MENU ---------------------------------------------------->
+
+<!------------------------------------ FULL PAGE AEROGRAPHY -------------------------------------------->
+<div id="fullpage">
+
+<!------------------------------------ SLIDE 1 --------------------------------------------------------> 
+    <div class="section page1 onecolumn" data-anchor="firstPage" >
+        <div class="bgpic"></div>
+        <div class="content1">1</div>
+    </div>
+<!------------------------------------ SLIDE 2 -------------------------------------------------------->
+    <div class="section page2 threecolumns" data-anchor="secondPage">
+        <div class="leftpart c1" >
+            <div class="bg1"></div>
+            <div class="content">1</div>
+        </div>
+
+        <div class="centerpart c2">
+            <div class="bg2"></div>
+            <div class="content">2</div>
+        </div>
+
+        <div class="rightpart c3">
+            <div class="bg3"></div>
+            <div class="content">3</div>
+        </div>
+    </div>
+<!------------------------------------ SLIDE 3 -------------------------------------------------------->
+    <div class="section page3 twocolumns" data-anchor="thirdPage">
+        <div class="lefthalf colorleftp3">
+            <p class="title">Настоящая аэрография и ее имитация</p>
+            <p class="text">text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text</p>
+            <div class="btn" onclick="window.open ('http://ya.ru') ">ЗАКАЗАТЬ ЗВОНОК</div>
+        </div>
+        <div class="righthalf colorrightp3"><div class="img"><img src="./img/trueaerography.jpg" alt="trueaerography"></div></div>
+    </div>
+<!------------------------------------ SLIDE 4 -------------------------------------------------------->
+    <div class="section page4 onecolumn colorp4" data-anchor="fourthPage">
+        <p class="title">Почему стоит обратиться к нам</p>
+    </div>
+<!------------------------------------ SLIDE 5 -------------------------------------------------------->
+    <div class="section page5 twocolumns" data-anchor="fifthPage">
+        <div class="lefthalf"><p>1</p></div>
+        <div class="righthalf"><p>2</p></div>
+    </div>
+<!------------------------------------ SLIDE 6 -------------------------------------------------------->
+    <div class="section page6 onecolumn bgcolorp6" data-anchor="sixthPage">
+        <!--<div class="blockway">1 обращение</div>--><div id="demo"><div>
+        <div class="blockway">2 обсуждение</div>
+        <div class="blockway">3 концепт</div>
+        <div class="blockway">4 реализация</div>
+        <div class="blockway">5 готовый продукт</div>
+        <div class="blockway">6 скидочная карта</div>
+        
+    </div>
+<!------------------------------------ SLIDE 7 -------------------------------------------------------->
+    <div class="section page7 onecolumn" data-anchor="seventhPage">
+        7
+    </div>
+<!------------------------------------ SLIDE 8 -------------------------------------------------------->
+    <div class="section page8 onecolumn" data-anchor="eighthPage">
+       <div class="onecolumn3 threecolumns">
+            <div class="leftpart '">1</div>
+            <div class="centerpart1 ">2</div>
+            <div class="rightpart">3</div>
+        </div>
+        <div class="onecolumn3 threecolumns">
+            <div class="leftpart '">4</div>
+            <div class="centerpart1 ">5</div>
+            <div class="rightpart">6</div>
+        </div>
+        <div class="onecolumn3 threecolumns">
+            <div class="leftpart '">7</div>
+            <div class="centerpart1 ">8</div>
+            <div class="rightpart">9</div>
+        </div>
+    </div>
+<!------------------------------------ SLIDE 9 -------------------------------------------------------->
+    <div class="section page9 onecolumn" data-anchor="ninthPage">
+        <div id="map"></div>
+        <div id="content">
+            <h1>Lorem ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan
+                et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+                augue duis dolore te feugait nulla facilisi.
+            </p>
+        </div>
+    </div>
+
+</div>
+<!------------------------------------ END OF FULL PAGE AEROGRAPHY  ------------------------------------>
+<script type="text/javascript">
+     $(".c1").hover(function(){
+         $(".c1").toggleClass("c1hovered");
+         $(".bg1").toggleClass("bghovered");
+         $(".c2").toggleClass("c2hover");
+         $(".c3").toggleClass("c3hover");
+        console.log("div was hovered");
+        });
+     $(".c2").hover(function(){
+         $(".c1").toggleClass("c1hover");
+         $(".bg2").toggleClass("bghovered");
+         $(".c2").toggleClass("c2hovered");
+         $(".c3").toggleClass("c3hover");
+         console.log("div was hovered");
+     });
+     $(".c3").hover(function(){
+         $(".c1").toggleClass("c1hover");
+         $(".bg3").toggleClass("bghovered");
+         $(".c2").toggleClass("c2hover");
+         $(".c3").toggleClass("c3hovered");
+         console.log("div was hovered");
+     });
+</script>
+</body>
+</html>

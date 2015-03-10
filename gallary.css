@@ -1,0 +1,89 @@
+.galbigblock{
+    width: 100%;
+    height:100%;
+    position: absolute;
+}
+.galblock{
+    text-align: center;
+    /* border: 1px solid #ffcc01;*/
+    float: left;
+    width: 21%;
+    height: 40%;
+    margin-top:2%;
+    margin-left: 3%;
+    position: relative;
+
+
+}
+.g1{
+    background-image: url(./img/mini1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.g2{
+    background-image: url(./img/mini2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.g3{
+    background-image: url(./img/left.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstgal{margin-left:3.35%;}
+
+
+.lastgal{
+    /*margin-right:2%;*/
+    /*border: 1px solid #ffcc01;*/
+}
+.icon7{
+    width:80%;
+    transition: 0.2s ease-in-out;
+    margin-top: 30%;
+}
+
+
+
+.icon7 img{
+    /*margin-left: 15%;*/
+    width:40%;
+    height:40%;
+}
+.titlegal{
+    /*padding-top: 5%;*/
+    margin-top: 7%;
+    color: #FFCC01;
+    text-align: left;
+    font-size: 3em;
+    font-weight: 200;
+    font-family: 'Roboto';
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-left: 6%;
+    height: 20%;
+    background: transparent;
+}
+
+.contentgal{
+    width: 85%;
+    margin-left: 6%;
+    background: transparent;
+    position: relative;
+}
+
+.example-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.item {
+    cursor: pointer;
+}

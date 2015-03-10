@@ -1,0 +1,36 @@
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="part1.css" />
+
+</head>
+
+<body>
+    <div class="c1">1</div>
+    <div class="c2">2</div>
+    <div class="c3">3</div>
+
+
+<script type="text/javascript">
+     $(".c1").hover(function(){
+         $(".c1").toggleClass("c1hovered");
+         $(".c2").toggleClass("c2hover");
+         $(".c3").toggleClass("c3hover");
+        console.log("div was hovered");
+        });
+     $(".c2").hover(function(){
+         $(".c1").toggleClass("c1hover");
+         $(".c2").toggleClass("c2hovered");
+         $(".c3").toggleClass("c3hover");
+         console.log("div was hovered");
+     });
+     $(".c3").hover(function(){
+         $(".c1").toggleClass("c1hover");
+         $(".c2").toggleClass("c2hover");
+         $(".c3").toggleClass("c3hovered");
+         console.log("div was hovered");
+     });
+</script>
+</body>
+</html>

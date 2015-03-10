@@ -1,0 +1,148 @@
+body {
+    background-color: #000000;
+    margin: 0 0 0 0;
+}
+
+.slidercontent {
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    background-color: transparent;
+    z-index: 150;
+    /*font-size: 5em;*/
+    color: #fff;
+    margin-top: 35vh;
+    transition: 1s;
+}
+.slidercontentup {
+    margin-top: 20vh;
+    transition: 0.3s;
+}
+
+.c1 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    width: 33%;
+    transition: 0.5s ease-in-out;
+}
+
+.bg1 {
+    position: absolute;
+    background-image: url(./img/left.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    transition: 1s;
+}
+
+.c2 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    width: 34%;
+    transition: 0.5s ease-in-out;
+}
+
+.bg2 {
+    position: absolute;
+    background-image: url(./img/center.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    transition: 1s;
+}
+
+.c3 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    width: 33%;
+    transition: 0.5s ease-in-out;
+}
+
+.bg3 {
+    position: absolute;
+    background-image: url(./img/right.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    transition: 1s;
+}
+
+.c1hovered {
+    /*width: 50%;*/
+    transition: 0.5s ease-in-out;
+    color: #ffffff;
+}
+
+.c2hovered {
+    font-weight: bold;
+    /*width: 50%;*/
+    transition: 0.5s ease-in-out;
+}
+
+.c3hovered {
+    font-weight: bold;
+    /*width: 50%;*/
+    transition: 0.5s ease-in-out;
+}
+
+.c1hover {
+    /*width: 25%;*/
+    transition: 0.5s ease-in-out;
+}
+
+.c2hover {
+    /*width: 25%;*/
+    transition: 0.5s ease-in-out;
+}
+
+.c3hover {
+    /*width: 25%;*/
+    transition: 0.5s ease-in-out;
+}
+
+.bghovered {
+    opacity: 0.5;
+    transition: 1s;
+    transform: scale(1.015, 1.015);
+}
+
+.btn2hovered {opacity: 0.5;}
+
+.slide2title {
+    transition: 1s;
+    opacity: 0;
+}
+
+.slide2titledisappear {
+    display: none;
+}
+
+.slide2titleleft {
+    transition: 1s;
+}
+
+.slide2titlecenter {
+    transition: 1s;
+}
+
+.slide2titleright {
+    transition: 1s;
+}
