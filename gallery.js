@@ -247,6 +247,12 @@ $(document).ready(function() {
             },
             close: function() {
                 $.fn.fullpage.setAllowScrolling(true);
+                $(".dialogue-name").removeClass("dialogue-alert");
+                $(".dialogue-email").removeClass("dialogue-alert");
+                $(".dialogue-phone").removeClass("dialogue-alert");
+                $('.name').val('');
+                $('.email').val('');
+                $('.phone').val('');
             }
         }
     });

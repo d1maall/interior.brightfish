@@ -9,9 +9,12 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="jquery.fullPage.js"></script>
     <script type="text/javascript" src="fullPageAnimation.js"></script>
+    <script type="text/javascript" src="send.js"></script>
     <script type="text/javascript" src="jquery.magnific-popup.js"></script>
     <script type="text/javascript" src="gallery.js"></script>
+    <!--
     <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    -->
     <script src="map.js" type="text/javascript"></script>
     <script src="jquery.flex-images.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="pace.min.js"></script>
@@ -59,7 +62,6 @@
             <li ><div class="call"> <a href="http://auto.bright-fish.ru/"><div class="callhalf">аэрография</div></a><div class="line"></div><a href="tel:84996383073"><div class="callhalf">+7 499 638-30-73</div></a></div></li>
         </ul>
     </div>
-    
 </div>
 <!------------------------------------ END OF MENU ---------------------------------------------------->
 
@@ -77,13 +79,13 @@
                     <div class="titleform">Мы вам перезвоним</div>
                     <ul>
                         <li>
-                            <input class="name" name="name" type="text" placeholder="Имя">
+                            <input class="name" name="name" type="text" placeholder="Имя"><div class="dialogue dialogue-name">text goes here</div>
                         </li>
                         <li>
-                            <input class="email" name="email" type="email" placeholder="E-mail">
+                            <input class="email" name="email" type="email" placeholder="E-mail"><div class="dialogue dialogue-email">text goes here</div>
                         </li>
                         <li>
-                            <input class="phone" name="phone" type="tel" placeholder="Телефон">
+                            <input class="phone" name="phone" type="tel" placeholder="Телефон"><div class="dialogue dialogue-phone">text goes here</div>
                         </li>
                     </ul>
                     <div class="knopka" onclick="send()">Отправить</div>
