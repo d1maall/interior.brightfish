@@ -110,7 +110,7 @@ $(document).ready(function() {
 
     $('.price1').magnificPopup({
         items: {
-            src: 'img/price/wall-1.jpg'
+            src: 'img/price/full/wall-1.jpg'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -123,7 +123,7 @@ $(document).ready(function() {
 
     $('.price2').magnificPopup({
         items: {
-            src: 'img/price/wall-2.jpg'
+            src: 'img/price/full/wall-2.jpg'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -136,7 +136,7 @@ $(document).ready(function() {
 
     $('.price3').magnificPopup({
         items: {
-            src: 'img/price/wall-3.jpg'
+            src: 'img/price/full/wall-3.jpg'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -149,7 +149,7 @@ $(document).ready(function() {
 
     $('.price4').magnificPopup({
         items: {
-            src: 'img/price/wall-4.jpg'
+            src: 'img/price/full/wall-4.jpg'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -162,7 +162,7 @@ $(document).ready(function() {
 
     $('.price5').magnificPopup({
         items: {
-            src: 'img/price/wall-5.jpg'
+            src: 'img/price/full/wall-5.jpg'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -175,7 +175,7 @@ $(document).ready(function() {
 
     $('.price6').magnificPopup({
         items: {
-            src: 'img/price/wall-6.jpg'
+            src: 'img/price/full/wall-6.jpg'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -188,7 +188,7 @@ $(document).ready(function() {
 
     $('.price7').magnificPopup({
         items: {
-            src: 'img/price/wall-7.jpg'
+            src: 'img/price/full/wall-7.jpg'
         },
         type: 'image',
         closeOnContentClick: 'true',
@@ -201,7 +201,7 @@ $(document).ready(function() {
 
     $('.price8').magnificPopup({
         items: {
-            src: 'img/price/wall-8.jpg'
+            src: 'img/price/full/wall-8.jpg'
         },
         type: 'image',
         closeOnContentClick: 'true',
