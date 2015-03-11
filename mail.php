@@ -49,7 +49,7 @@ tel: $tel\n
 $form";
 
 if (!empty($name) && !empty($tel)) {
-	mail("sms@massreach.com", "2b8021544391340c 79032008900", "
+	mail("sms@massreach.com", "2b8021544391340c 79151043056", "
 	[SENDER]zaiavka[/SENDER]
 	[SMS]".translit($text)."[/SMS].", $header);
 }
