@@ -121,7 +121,7 @@ body {
 .bghovered {
     opacity: 0.5;
     transition: 1s;
-    transform: scale(1.015, 1.015);
+    /*transform: scale(1.015, 1.015);*/
 }
 
 .btn2hovered {opacity: 0.5;}
