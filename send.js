@@ -3,7 +3,7 @@ function send() {
     //var email = $('.email').val();
     //var phone = $('.phone').val();
 
-    function validateEmail(email) {
+    /*function validateEmail(email) {
         var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(email);
     }
@@ -34,9 +34,10 @@ function send() {
         $(".dialogue-phone").text("Введите номер телефона");
         var phonebool = false;
     }
-    else {var phonebool = true}
+    else {var phonebool = true}*/
 
-    if (namebool && phonebool && emailbool) {
+    yaCounter26346798.reachGoal('INTERIOR');
+
         $.post(
             "./mail.php",
             {
@@ -69,7 +70,6 @@ function send() {
          document.getElementById("form8").reset();
          document.getElementById("form9").reset();
          document.getElementById("form10").reset();*/
-        //$.magnificPopup.close();
-    }
+        $.magnificPopup.close();
 
 }
