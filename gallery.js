@@ -224,36 +224,4 @@ $(document).ready(function() {
             cursor: 'pointer'
         }
     })*/
-
-    $('.popup-with-form').magnificPopup({
-        closeOnContentClick: false,
-        type: 'inline',
-        preloader: false,
-        focus: '#name',
-        mainClass: 'mfp-fade',
-
-        // When elemened is focused, some mobile browsers in some cases zoom in
-        // It looks not nice, so we disable it:
-        callbacks: {
-            beforeOpen: function() {
-                if($(window).width() < 700) {
-                    this.st.focus = false;
-                } else {
-                    this.st.focus = '#name';
-                }
-            },
-            open: function() {
-                $.fn.fullpage.setAllowScrolling(false);
-            },
-            close: function() {
-                $.fn.fullpage.setAllowScrolling(true);
-                $(".dialogue-name").removeClass("dialogue-alert");
-                $(".dialogue-email").removeClass("dialogue-alert");
-                $(".dialogue-phone").removeClass("dialogue-alert");
-                $('.name').val('');
-                $('.email').val('');
-                $('.phone').val('');
-            }
-        }
-    });
 });
