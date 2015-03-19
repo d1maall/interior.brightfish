@@ -1,6 +1,9 @@
 
-.menuvisible{
+.menu2visible{
     display:none;
+}
+.menu1visible{
+    display:block;
 }
 
 @media only screen and (min-width: 640px) {
@@ -97,9 +100,13 @@
     }
 
     /*МЕНЮ*/
-    .menuvisible{
-        display: block;
+    .menu2visible{
+        display:block;
     }
+    .menu1visible{
+        display:none;
+    }
+
     /*СЛАЙД 2*/
 
     /*СЛАЙД 4*/

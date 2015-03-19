@@ -15,7 +15,27 @@
 
 
 }
-.g1{
+.galsl{
+    margin-top:-10%;
+    margin-right: 10%;
+    float: right;
+}
+.galtext{
+    width:30%;
+    float:left;
+    color: #F3F3F3;
+    margin-left: 6%;
+    font-size: 1.5em;
+    font-family: "Clear Sans";
+    letter-spacing: 0.02em;
+    font-weight: 200;
+}
+.galtext a{
+    text-decoration: none;
+    color:#FFCC01
+}
+.galtext a:hover{color:#FFCC01}
+/*.g1{
     background-image: url(./img/mini1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -38,8 +58,8 @@
 
 .lastgal{
     /*margin-right:2%;*/
-    /*border: 1px solid #ffcc01;*/
-}
+    /*border: 1px solid #ffcc01;
+}*/
 .icon7{
     width:80%;
     transition: 0.2s ease-in-out;
@@ -55,7 +75,7 @@
 }
 .titlegal{
     /*padding-top: 5%;*/
-    margin-top: 7%;
+    margin-top: 8%;
     color: #FFCC01;
     text-align: left;
     font-size: 3em;
