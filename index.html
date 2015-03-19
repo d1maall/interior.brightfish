@@ -9,6 +9,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="jquery.fullPage.js"></script>
 
+    <link  href="fotorama.css" rel="stylesheet">
+    <script src="fotorama.js"></script>
 
     <script type="text/javascript" src="jquery.magnific-popup.js"></script>
     <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
@@ -61,7 +63,6 @@
 <!------------------------------------ BODY ---------------------------------------------------------->
 <body>
 <!------------------------------------ MENU  -->
-<!--
 <div class="navbar menuvisible">
     <div class="logo menusection">
         <a  href="#main">
@@ -79,7 +80,6 @@
         </ul>
     </div>
 </div>
--->
 <!------------------------------------ END OF MENU ---------------------------------------------------->
 
 <!------------------------------------ FULL PAGE AEROGRAPHY -------------------------------------------->
@@ -392,45 +392,15 @@
             <div class="titlegal">
                 Наши работы<div class=" cherta">&mdash;</div>
             </div>
-            <div class ="contentgal">
-                <div id="basicExample">
-                    <div class="item gallery1"><img src="./img/wall/preview/1wallgal.jpg"/></div>
-                    <div class="item gallery2"><img src="./img/wall/preview/2wallgal.jpg"/></div>
-                    <div class="item gallery3"><img src="./img/wall/preview/3wallgal.jpg"/></div>
-                    <div class="item gallery4"><img src="./img/wall/preview/4wallgal.jpg"/></div>
-                    <div class="item gallery5"><img src="./img/wall/preview/5wallgal.jpg"/></div>
-                    <div class="item gallery6"><img src="./img/wall/preview/6wallgal.jpg"/></div>
-                    <!--
-                    <div class="item">
-                        <a class = "popup-with-form" href="#form9"><div class="item"><img src="./img/seemore.png"/></div></a>
-                        <form id="form9" class="white-popup-block mfp-hide">
-                            <div class="titleform">посмотреть больше работ</div>
-                            <ul>
-                                <li>
-                                    <input class="name" name="name" type="text" placeholder="Имя">
-                                </li>
-                                <li>
-                                    <input class="email" name="email" type="email" placeholder="E-mail">
-                                </li>
-                                <li>
-                                    <input class="phone" name="phone" type="tel" placeholder="Телефон">
-                                </li>
-                            </ul>
-                            <div class="knopka" onclick="send()">Отправить</div>
-                        </form>
-                    </div>
-                    -->
-                </div>
-                <script>
-                    $("#basicExample").justifiedGallery({
-                        rowHeight : 145,
-                        fixedHeight: true,
-                        lastRow : 'justify',
-                        randomize: true
-                    });
-                </script>
-                <div class=" scroll sc7"><a href="#prices" class=""><img src="./img/arrow1.svg" alt=""></a></div>
+            <div class="fotorama" data-height="60%" data-width="600" data-max-width="100%" data-nav="thumbs">
+                    <a href="./img/wall/preview/1wallgal.jpg"/></a>
+                    <a href="./img/wall/preview/2wallgal.jpg"/></a>
+                    <a href="./img/wall/preview/3wallgal.jpg"/></a>
+                    <a href="./img/wall/preview/4wallgal.jpg"/></a>
+                    <a href="./img/wall/preview/5wallgal.jpg"/></a>
+                    <a href="./img/wall/preview/6wallgal.jpg"/></a>
             </div>
+            <div class=" scroll sc7"><a href="#prices" class=""><img src="./img/arrow1.svg" alt=""></a></div>
         </div>
     </div>
 <!------------------------------------ SLIDE 8 -------------------------------------------------------->
