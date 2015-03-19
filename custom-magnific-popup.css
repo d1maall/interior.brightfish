@@ -93,8 +93,8 @@ fieldset {
 .dialogue {
     /*display: inline-block;*/
     color: #ffffff;
-    font-size: 100%;
-    font-weight: 500;
+    font-size: 90%;
+    font-weight: 400;
     /*padding: 1% 3% 1% 1%;*/
     font-family: "Clear Sans";
     opacity: 0;
@@ -129,6 +129,10 @@ fieldset {
     box-sizing: border-box;
 }
 
+.knopka:hover {
+    cursor: pointer;
+}
+
 .btnpage1 a {
     text-decoration: none;
 }
@@ -155,5 +159,16 @@ input {
     -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
     box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid lightskyblue;
+    box-shadow: 0 0 5px lightskyblue;
+}
+
+.input-alert {
+    border: 1px solid pink;
+    box-shadow: 0 0 5px pink;
 }
 
