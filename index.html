@@ -25,7 +25,7 @@
 
     <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="slider.css" />
+    <!--<link rel="stylesheet" type="text/css" href="slider.css" />
     <link rel="stylesheet" type="text/css" href="text.css" />
     <link rel="stylesheet" type="text/css" href="colorpage.css" />
     <link rel="stylesheet" type="text/css" href="buttons.css" />
@@ -33,12 +33,12 @@
     <link rel="stylesheet" type="text/css" href="way.css"/>
     <link rel="stylesheet" type="text/css" href="pricelist.css"/>
     <link rel="stylesheet" type="text/css" href="gallary.css"/>
-    <link rel="stylesheet" type="text/css" href="social.css"/>
+    <link rel="stylesheet" type="text/css" href="social.css"/>-->
     <link rel="stylesheet" type="text/css" href="animate.css" />
     <link rel="stylesheet" type="text/css" href="magnific-popup.css"/>
     <link rel="stylesheet" type="text/css" href="custom-magnific-popup.css"/>
-    <link rel="stylesheet" type="text/css" href="prices.css"/>
-    <link rel="stylesheet" type="text/css" href="map.css">
+    <!--<link rel="stylesheet" type="text/css" href="prices.css"/>
+    <link rel="stylesheet" type="text/css" href="map.css">-->
     <link rel="stylesheet" type="text/css" href="jquery.flex-images.css">
     <link rel="stylesheet" type="text/css" href="pace_theme.css">
     <link rel="stylesheet" type="text/css" href="media-css.css">
@@ -55,7 +55,38 @@
 <!------------------------------------ BODY ---------------------------------------------------------->
 <body>
 <!------------------------------------ MENU  -->
-<div class="navbar menuvisible">
+<div class="menu_main menu1visible">
+    <a href="#go_nav" class="link_nav">
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </a>
+    <ul id="go_nav">
+        <li class="active"><a href="tel:84996383073">+7 499 638-30-73</a></li>
+        <li><a class = "menuitem" href="#main">главная</a></li>
+        <li><a class = "menuitem" href="#giftcard">подарочная карта</a></li>
+        <li><a class = "menuitem" href="#gallery">галерея</a></li>
+        <li><a class = "menuitem" href="#prices">цены</a></li>
+        <li><a class = "menuitem" href="#contacts">контакты</a></li>
+        <li ><a href="http://interior.bright-fish.ru">роспись интерьеров</a></li>
+    </ul>
+</div>
+<script>
+    $(
+            function(){
+                $("body").addClass("js");
+                $(".link_nav").click(
+                        function(){
+                            $("body").toggleClass("mobile_nav");
+                        }
+                );
+            }
+    )
+</script>
+<!------------------------------------------>
+<div class="navbar menu2visible">
     <div class="logo menusection">
         <a  href="#main">
         <div><img src="./img/logo2.svg" alt=""></div>
@@ -384,9 +415,26 @@
             <div class="titlegal">
                 Наши работы<div class=" cherta">&mdash;</div>
             </div>
-            <!--<div class ="contentgal">
-                <div id="basicExample">-->
-            <div class="fotorama" data-height="60%" data-width="600" data-max-width="100%" data-nav="thumbs">
+            <div class="galtext">
+                Больше работ вы можете посмотреть на наших страницах в <a href="#social">социальных сетях</a>,
+                а так же в нашем <a class = "popup-with-form" href="#form12">офисе</a>.
+                <form id="form12" class="white-popup-block mfp-hide">
+                    <div class="titleform">Посмотреть больше работ</div>
+                    <ul>
+                        <li>
+                            <input class="name" name="name" type="text" placeholder="Имя"><div class="dialogue dialogue-name">text goes here</div>
+                        </li>
+                        <li>
+                            <input class="email" name="email" type="text" placeholder="E-mail"><div class="dialogue dialogue-email">text goes here</div>
+                        </li>
+                        <li>
+                            <input class="phone" name="phone" type="tel" placeholder="Телефон"><div class="dialogue dialogue-phone">text goes here</div>
+                        </li>
+                    </ul>
+                    <div class="knopka" onclick="send()">Отправить</div>
+                </form>
+            </div>
+            <div class="fotorama galsl" data-height="60%" data-width="600" data-max-width="100%" data-nav="thumbs">
                 <img src= "./img/wall/preview/1wallgal.jpg">
                 <a href="./img/wall/preview/2wallgal.jpg"></a>
                 <a href="./img/wall/preview/3wallgal.jpg"></a>
@@ -406,42 +454,42 @@
         <div class=" priceblock pricefirst price1">
             <div class="pp8 "></div>
             <div class="priceimg abg1 "> </div>
-            <div class="pricehover pricetext pricetext1">трафарет<div class="prcherta">&mdash;</div> от 1500₽ за м <sup>2 </sup></div>
+            <div class="pricehover pricetext pricetext1">трафарет<div class="prcherta">&mdash;</div> от 1500<i class="fa fa-rub"></i> за м <sup>2 </sup></div>
         </div>
         <div class="priceblock price2">
             <div class="pp8"></div>
             <div class="priceimg abg2"></div>
-            <div class="pricehover pricetext pricetext2 prbigtext">граффити + <nobr>кисти/валик</nobr><div class="prcherta">&mdash;</div> от 1800₽ за м <sup>2 </sup></div>
+            <div class="pricehover pricetext pricetext2 prbigtext">граффити + <nobr>кисти/валик</nobr><div class="prcherta">&mdash;</div> от 1800<i class="fa fa-rub"></i> за м <sup>2 </sup></div>
         </div>
         <div class="priceblock price3">
             <div class="pp8"></div>
             <div class="priceimg abg3"></div>
-            <div class="pricehover pricetext pricetext3">граффити<div class="prcherta">&mdash;</div> от 2200₽ за м <sup>2 </sup></div>
+            <div class="pricehover pricetext pricetext3">граффити<div class="prcherta">&mdash;</div> от 2200<i class="fa fa-rub"></i> за м <sup>2 </sup></div>
         </div>
         <div class="priceblock pricelast price4">
             <div class="pp8"></div>
             <div class="priceimg abg4"></div>
-            <div class="pricehover pricetext pricetext4 prbigtext">"мультяшки" заливкой<div class="prcherta">&mdash;</div> от 3600₽ за м <sup>2 </sup></div>
+            <div class="pricehover pricetext pricetext4 prbigtext">"мультяшки" заливкой<div class="prcherta">&mdash;</div> от 3600<i class="fa fa-rub"></i> за м <sup>2 </sup></div>
         </div>
         <div class="priceblock pricefirst  prline2 price5">
             <div class="pp8"></div>
             <div class="priceimg abg5"></div>
-            <div class="pricehover pricetext pricetext5 prbigtext">"мультяшки" с объемом<div class="prcherta">&mdash;</div>от 5400₽ за м <sup>2 </sup></div>
+            <div class="pricehover pricetext pricetext5 prbigtext">"мультяшки" с объемом<div class="prcherta">&mdash;</div>от 5400<i class="fa fa-rub"></i> за м <sup>2 </sup></div>
         </div>
         <div class="priceblock  prline2 price6">
             <div class="pp8"></div>
             <div class="priceimg abg6"></div>
-            <div class="pricehover pricetext pricetext6">классика/реализм<div class="prcherta">&mdash;</div>от 8100₽ за м <sup>2 </sup></div>
+            <div class="pricehover pricetext pricetext6">классика/реализм<div class="prcherta">&mdash;</div>от 8100<i class="fa fa-rub"></i> за м <sup>2 </sup></div>
         </div>
         <div class="priceblock  prline2 price7">
             <div class="pp8"></div>
             <div class="priceimg abg7"></div>
-            <div class="pricehover pricetext pricetext7">фотореализм<div class="prcherta">&mdash;</div>от 12600₽ за м <sup>2 </sup> </div>
+            <div class="pricehover pricetext pricetext7">фотореализм<div class="prcherta">&mdash;</div>от 12600<i class="fa fa-rub"></i> за м <sup>2 </sup> </div>
         </div>
         <div class="priceblock pricelast  prline2 price8">
             <div class="pp8"></div>
             <div class="priceimg abg8"></div>
-            <div class="pricehover pricetext pricetext8 ">масло<div class="prcherta">&mdash;</div>от 12600₽ за м <sup>2 </sup></div>
+            <div class="pricehover pricetext pricetext8 ">масло<div class="prcherta">&mdash;</div>от 12600<i class="fa fa-rub"></i> за м <sup>2 </sup></div>
         </div><!---->
             </div>
             <a class = "popup-with-form" href="#form10"><div class="btn8"> РАССЧИТАТЬ ПРОЕКТ</div></a>
@@ -466,7 +514,16 @@
     </div>
 <!------------------------------------ SLIDE 9 -------------------------------------------------------->
     <div class="section page9 colorp9" data-anchor="contacts">
-        <div id="map"></div>
+        <div class="map"></div>
+        <div class="mapblock">
+            <div class="titmap">Контакты</div>
+            <div class="textmap">Для вашего удобства мы имеем разветвленную сеть мастерских. Подробнее можно узнать позвонив в наш офис.</div>
+            <div class="contbl">
+                <div class="cont"><i class="fa fa-mobile"></i>&nbsp;Телефон:&nbsp;</div><div class="cont1"><a href="tel:84996383073">+7 499 638-30-73</a></div>
+                <div class="cont"><i class="fa fa-envelope-o"></i>&nbsp;E-mail:&nbsp;</div><div class="cont1"><a href="mailto:info@bright-fish.ru">info@bright-fish.ru</a></div>
+                <div class="cont"><i class="fa fa-map-marker"></i>&nbsp;Адрес:&nbsp;</div><div class="cont1">Большая Новодмитровская ул., 36, Дизайн-завод "Флакон"</div>
+            </div>
+        </div>
         <div class=" scroll sc9 "><a href="#social" class=""><img src="./img/arrow2.svg" alt=""></a></div>
     </div>
 
@@ -482,9 +539,7 @@
                 <div class="socialblock soclast" ><a href="http://ok.ru/group/52616441626714" target="_blank"><div class="icon10"><img src="./img/class1.svg" alt=""></div></a></div>
             </div>
             <div class = "socialtextblock">
-                <div class="emailus">
-                    <a href="mailto:info@bright-fish.ru">info@bright-fish.ru</a>
-                </div>
+
                 <div class="soctext">
                     Все права защищены 2015 | <a href="licence.html" class="popup-ajax">Политика конфиденциальности</a>
                 </div>
