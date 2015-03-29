@@ -61,25 +61,31 @@ $(document).ready(function() {
                     }
                 }
             });
-            $('.fotorama').fotorama({
+            $('.fotorama').on(
+                'fotorama:fullscreenenter', function(){
+                    $.fn.fullpage.setAllowScrolling(false);
+                    $.fn.fullpage.setKeyboardScrolling(false);
+                }
+            );
+            $('.fotorama').on(
+                'fotorama:fullscreenexit', function(){
+                    $.fn.fullpage.setAllowScrolling(true);
+                    $.fn.fullpage.setKeyboardScrolling(true);
+                }
+            );
+            // 1. Initialize fotorama manually.
+            var $customFotorama = $('.fotorama').fotorama({
                 click: false,
                 width: '90%',
                 height: '60%',
                 nav: 'thumbs',
                 allowfullscreen: true
             });
-            // 1. Initialize fotorama manually.
-            var $fotoramaDiv = $('.fotorama').fotorama({
-                click:false,
-                allowfullscreen:true
-            });
             // 2. Get the API object.
-            var fotorama = $fotoramaDiv.data('fotorama');
+            var fotorama = $customFotorama.data('fotorama');
             $('.fotorama__stage__shaft').click(function(){
                 fotorama.requestFullScreen();
-
             });
-
         },
         afterLoad: function(anchorLink, index) {
             if ($(window).width() > 1000) {
