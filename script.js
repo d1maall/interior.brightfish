@@ -61,6 +61,25 @@ $(document).ready(function() {
                     }
                 }
             });
+            $('.fotorama').fotorama({
+                click: false,
+                width: '90%',
+                height: '60%',
+                nav: 'thumbs',
+                allowfullscreen: true
+            });
+            // 1. Initialize fotorama manually.
+            var $fotoramaDiv = $('.fotorama').fotorama({
+                click:false,
+                allowfullscreen:true
+            });
+            // 2. Get the API object.
+            var fotorama = $fotoramaDiv.data('fotorama');
+            $('.fotorama__stage__shaft').click(function(){
+                fotorama.requestFullScreen();
+
+            });
+
         },
         afterLoad: function(anchorLink, index) {
             if ($(window).width() > 1000) {
@@ -602,6 +621,4 @@ function init () {
             iconImageOffset: [-25, -77] // смещение картинки
         }));
 }
-
-
 
