@@ -1,6 +1,7 @@
 <!-- сайт компании Bright Fish -->
 <!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <!------------------------------------ HEADER -------------------------------------------------------->
 <head lang="en">
     <meta charset="utf-8">
@@ -12,50 +13,27 @@
     <link  href="fotorama.css" rel="stylesheet">
     <script src="fotorama.js"></script>
 
-    <!--
-    <script type="text/javascript" src="gallery.js"></script>
-    <script type="text/javascript" src="fullPageAnimation.js"></script>
-    <script type="text/javascript" src="send.js"></script>
-    <script src="map.js" type="text/javascript"></script>
-    -->
-
     <script type="text/javascript" src="script.js"></script>
 
-    <!--
-    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <script src="jquery.flex-images.min.js" type="text/javascript"></script>
-    -->
+
 
 
     <script type="text/javascript" src="pace.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <!--<link rel="stylesheet" type="text/css" href="slider.css" />
-    <link rel="stylesheet" type="text/css" href="text.css" />
-    <link rel="stylesheet" type="text/css" href="colorpage.css" />
-    <link rel="stylesheet" type="text/css" href="buttons.css" />
-    <link rel="stylesheet" type="text/css" href="menu.css"/>
-    <link rel="stylesheet" type="text/css" href="way.css"/>
-    <link rel="stylesheet" type="text/css" href="pricelist.css"/>
-    <link rel="stylesheet" type="text/css" href="gallary.css"/>
-    <link rel="stylesheet" type="text/css" href="social.css"/>-->
+
     <link rel="stylesheet" type="text/css" href="animate.css" />
     <link rel="stylesheet" type="text/css" href="magnific-popup.css"/>
     <link rel="stylesheet" type="text/css" href="custom-magnific-popup.css"/>
-    <!--<link rel="stylesheet" type="text/css" href="prices.css"/>
-    <link rel="stylesheet" type="text/css" href="map.css">-->
+
     <link rel="stylesheet" type="text/css" href="jquery.flex-images.css">
     <link rel="stylesheet" type="text/css" href="pace_theme.css">
     <link rel="stylesheet" type="text/css" href="media-css.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    <!--
-    <link rel="stylesheet" href="justifiedGallery.min.css" />
-    <script src="jquery.justifiedGallery.min.js"></script>
-    -->
-    <title> РОСПИСЬ ИНТЕРЬЕРОВ BRIGHT FISH</title>
+
+    <title> роспись интерьеров bright fish</title>
 </head>
 <!------------------------------------ END OF HEADER ------------------------------------------------->
 <!------------------------------------ BODY ---------------------------------------------------------->
@@ -71,12 +49,12 @@
     </a>
     <ul id="go_nav">
         <li class="active"><a href="tel:84996383073">+7 499 638-30-73</a></li>
-        <li><a class = "menuitem" href="#main">главная</a></li>
+        <li><a class = "menuitem" href="http://bright-fish.ru/">главная</a></li>
         <li><a class = "menuitem" href="#giftcard">подарочная карта</a></li>
         <li><a class = "menuitem" href="#gallery">галерея</a></li>
         <li><a class = "menuitem" href="#prices">цены</a></li>
         <li><a class = "menuitem" href="#contacts">контакты</a></li>
-        <li ><a href="http://interior.bright-fish.ru">роспись интерьеров</a></li>
+        <li ><a href="http://auto.bright-fish.ru">аэрография</a></li>
     </ul>
 </div>
 <script>
@@ -94,7 +72,7 @@
 <!------------------------------------------>
 <div class="navbar menu2visible">
     <div class="logo menusection">
-        <a  href="#main">
+        <a  href="http://bright-fish.ru/">
         <div><img src="./img/logo2.svg" alt=""></div>
         </a>
     </div>
@@ -111,11 +89,10 @@
 </div>
 <!------------------------------------ END OF MENU ---------------------------------------------------->
 
-<!------------------------------------ FULL PAGE AEROGRAPHY -------------------------------------------->
+
 <div id="fullpage">
 
-<!------------------------------------ SLIDE 1 -------------------------------------------------------->
-    <div class="section page1 onecolumn" data-anchor="main" >
+    <div class="section page1" data-anchor="main" >
         <div class="bgpic"></div>
         <div class="content1">
             <div class="titlepage1">Профессиональная <nobr>роспись интерьеров</nobr></div>
@@ -140,9 +117,8 @@
             <div class="animated infinite scroll bounce"><a href="#what-we-do" class=""><img src="./img/arrow1.svg" alt=""></a></div>
         </div>
     </div>
-
-<!------------------------------------ SLIDE 2 -------------------------------------------------------->
     <div class="section page2 threecolumns" data-anchor="what-we-do">
+        <div class="title2mob">Мы расписываем</div>
         <div class="leftpart c1" >
             <div class="bg1"></div>
             <div class="slidercontent slidercontentleft title2 ">
@@ -232,10 +208,27 @@
                 </div>
             </div>
         </div>
+        <div>
+            <a class = "popup-with-form btn2 btn2mob" href="#form11">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
+            <form id="form11" class="white-popup-block mfp-hide">
+                <div class="titleform">получить консультацию</div>
+                <ul>
+                    <li>
+                        <input class="name" name="name" type="text" placeholder="Имя"><div class="dialogue dialogue-name">text goes here</div>
+                    </li>
+                    <li>
+                        <input class="email" name="email" type="email" placeholder="E-mail"><div class="dialogue dialogue-email">text goes here</div>
+                    </li>
+                    <li>
+                        <input class="phone" name="phone" type="tel" placeholder="Телефон"><div class="dialogue dialogue-phone">text goes here</div>
+                    </li>
+                </ul>
+                <div class="knopka" onclick="send()">Отправить</div>
+            </form>
+        </div>
         <div class=" scroll sc2"><a href="#choose-your-style" class=""><img src="./img/arrow1.svg" alt=""></a></div>
 
     </div>
-    <!------------------------------------ SLIDE 3 ------------------------->
     <div class="section page3 twocolumns" data-anchor="choose-your-style">
         <div class="page3bg"></div>
         <div class="lefthalf colorleftp3">
@@ -269,8 +262,6 @@
             <div class=" scroll sc3 "><a href="#why-us" class=""><img src="./img/arrow1.svg" alt=""></a></div>
         </div>
     </div>
-
-    <!------------------------------------ SLIDE 4 -------------------------------------------------------->
     <div class="section  " data-anchor="forthPage">
         <div class="page4bg"></div>
         <div class="p4container colorp4">
@@ -325,12 +316,11 @@
 
 
     </div>
-<!------------------------------------ SLIDE 5 -------------------------------------------------------->
     <div class="section page5 twocolumns" data-anchor="giftcard">
         <div class="page5bg"></div>
         <div class="lefthalf colorp5left">
             <div class="title5">Уникальная роспись — лучший подарок<div class=" cherta">&mdash;</div></div>
-            <div class="text5">У нас есть универсальные подарки для Ваших родных, коллег и друзей —
+            <div class="text5">У нас есть универсальные подарки для ваших родных, коллег и друзей —
                 подарочные карты открытого номинала в нашем фирменном стиле.</div>
 
             <a class = "popup-with-form " href="#form7"><div class="btn"> ЗАКАЗАТЬ ПОДАРОЧНУЮ КАРТУ</div></a>
@@ -352,7 +342,6 @@
             <div class=" scroll sc5 "><a href="#how-we-work" class=""><img src="./img/arrow1.svg" alt=""></a></div>
         </div>
     </div>
-<!------------------------------------ SLIDE 6 -------------------------------------------------------->
     <div class="section page6  bgcolorp6" data-anchor="how-we-work">
         <div class="page6bg"></div>
         <div class="waypage">
@@ -391,8 +380,17 @@
             </div>
             <div class="blockway waylast waybt bw7">
                 <div class="icon2"><img src="./img/do1.svg" alt="">выполнение</div>
-            </div><!---->
-
+            </div>
+            <div class="way-mob">
+                <ol>
+                    <li>заявка на работу</li>
+                    <li>выезд художника</li>
+                    <li>три эскиза</li>
+                    <li>выполнение</li>
+                    <li>готовый проект</li>
+                    <li>скидочная карта</li>
+                </ol>
+            </div>
         </div>
             <a class = "popup-with-form  " href="#form8"><div class="btn6"> ПОРАБОТАТЬ С НАМИ</div></a>
             <form id="form8" class="white-popup-block mfp-hide">
@@ -414,7 +412,6 @@
 
         </div>
     </div>
-<!------------------------------------ SLIDE 7 -------------------------------------------------------->
     <div class="section page7 colorp7" data-anchor="gallery">
         <div class="page7bg"></div>
         <div class="galbigblock">
@@ -460,7 +457,6 @@
             <div class=" scroll sc7"><a href="#prices" class=""><img src="./img/arrow1.svg" alt=""></a></div>
         </div>
     </div>
-<!------------------------------------ SLIDE 8 -------------------------------------------------------->
     <div class="section page8 colorp8" data-anchor="prices">
         <div class="page8bg"></div>
         <div class="priceconteiner">
@@ -507,6 +503,18 @@
             <div class="pricehover pricetext pricetext8 ">масло<div class="prcherta">&mdash;</div>от 12600<i class="fa fa-rub"></i> за м <sup>2 </sup></div>
         </div><!---->
             </div>
+            <div class="price-mob">
+                <ul type="square">
+                    <li>трафарет от 1500<i class="fa fa-rub"></i> за м <sup>2 </sup></li>
+                    <li>граффити +  кисти</nobr>валик от 1800<i class="fa fa-rub"></i> за м <sup>2 </sup></li>
+                    <li>граффити от 2200<i class="fa fa-rub"></i> за м <sup>2 </sup></li>
+                    <li>"мультяшки" заливкой от 3600<i class="fa fa-rub"></i> за м <sup>2 </sup></li>
+                    <li>"мультяшки" с объемом от 5400<i class="fa fa-rub"></i> за м <sup>2 </sup></li>
+                    <li>классика/реализм от 8100<i class="fa fa-rub"></i> за м <sup>2 </sup></li>
+                    <li>фотореализм от 12600<i class="fa fa-rub"></i> за м <sup>2 </sup> </li>
+                    <li>масло от 12600<i class="fa fa-rub"></i> за м <sup>2 </sup></li>
+                </ul>
+            </div>
             <a class = "popup-with-form" href="#form10"><div class="btn8"> РАССЧИТАТЬ ПРОЕКТ</div></a>
             <form id="form10" class="white-popup-block mfp-hide">
                 <div class="titleform">заказать расчет проекта</div>
@@ -532,10 +540,11 @@
         <div class="map"></div>
         <div class="mapblock">
             <div class="titmap">Контакты</div>
-            <div class="textmap">Для вашего удобства мы имеем разветвленную сеть мастерских. Подробнее можно узнать позвонив в наш офис.</div>
+            <div class="textmap">Для вашего удобства мы имеем разветвленную сеть мастерских.
+                Подробнее можно узнать позвонив в наш офис.</div>
             <div class="contbl">
-                <div class="cont"><i class="fa fa-mobile"></i>&nbsp;Телефон:&nbsp;</div><div class="cont1"><a href="tel:84996383073">+7 499 638-30-73</a></div>
-                <div class="cont"><i class="fa fa-envelope-o"></i>&nbsp;E-mail:&nbsp;</div><div class="cont1"><a href="mailto:info@bright-fish.ru">info@bright-fish.ru</a></div>
+                <div class="cont"><i class="fa fa-mobile"></i>&nbsp;Телефон:&nbsp;</div><div class="cont1"><a href="tel:84996383073">+7 499 638-30-73</a></div></br>
+                <div class="cont"><i class="fa fa-envelope-o"></i>&nbsp;E-mail:&nbsp;</div><div class="cont1"><a href="mailto:info@bright-fish.ru">info@bright-fish.ru</a></div></br>
                 <div class="cont"><i class="fa fa-map-marker"></i>&nbsp;Адрес:&nbsp;</div><div class="cont1">Большая Новодмитровская ул., 36, Дизайн-завод "Флакон"</div>
             </div>
         </div>
@@ -564,81 +573,81 @@
 
     </div>
 </div>
-<!------------------------------------ END OF FULL PAGE AEROGRAPHY  ------------------------------------>
 <script type="text/javascript">
-    $(".c1").hover(function(){
-        $(".c1").toggleClass("c1hovered");
-        $(".bg1").toggleClass("bghovered");
-        $(".c2").toggleClass("c2hover");
-        $(".c3").toggleClass("c3hover");
-        $(".slidercontentleft").toggleClass("slidercontentup");
-        $(".slide2titleleft").toggleClass("slide2title");
-        setTimeout(function(){
-            $(".slide2titleleft").toggleClass("slide2titledisappear");
-        }, 500);
-        setTimeout(function(){
-            $(".textsl2left").toggleClass("textsl2appear");
-        }, 0);
-        setTimeout(function(){
-            $(".textsl2left").toggleClass("textsl2visible animated fadeInUp");
-        }, 500);
-        setTimeout(function(){
-            $(".btn2left").toggleClass("btn2display");
-        }, 0);
-        setTimeout(function(){
-            $(".btn2left").toggleClass("btn2appear animated fadeInUp");
-        }, 1000);
-        console.log("div was hovered");
-    });
-    $(".c2").hover(function(){
-        $(".c1").toggleClass("c1hover");
-        $(".bg2").toggleClass("bghovered");
-        $(".c2").toggleClass("c2hovered");
-        $(".c3").toggleClass("c3hover");
-        $(".slidercontentcenter").toggleClass("slidercontentup");
-        $(".slide2titlecenter").toggleClass("slide2title");
-        setTimeout(function(){
-            $(".slide2titlecenter").toggleClass("slide2titledisappear");
-        }, 500);
-        setTimeout(function(){
-            $(".textsl2center").toggleClass("textsl2appear");
-        }, 0);
-        setTimeout(function(){
-            $(".textsl2center").toggleClass("textsl2visible animated fadeInUp");
-        }, 500);
-        setTimeout(function(){
-            $(".btn2center").toggleClass("btn2display");
-        }, 0);
-        setTimeout(function(){
-            $(".btn2center").toggleClass("btn2appear animated fadeInUp");
-        }, 1000);
-        console.log("div was hovered");
-    });
-    $(".c3").hover(function(){
-        $(".c1").toggleClass("c1hover");
-        $(".bg3").toggleClass("bghovered");
-        $(".c2").toggleClass("c2hover");
-        $(".c3").toggleClass("c3hovered");
-        $(".slidercontentright").toggleClass("slidercontentup");
-        $(".slide2titleright").toggleClass("slide2title");
-        setTimeout(function(){
-            $(".slide2titleright").toggleClass("slide2titledisappear");
-        }, 500);
-        setTimeout(function(){
-            $(".textsl2right").toggleClass("textsl2appear");
-        }, 0);
-        setTimeout(function(){
-            $(".textsl2right").toggleClass("textsl2visible animated fadeInUp");
-        }, 500);
-        setTimeout(function(){
-            $(".btn2right").toggleClass("btn2display");
-        }, 0);
-        setTimeout(function(){
-            $(".btn2right").toggleClass("btn2appear animated fadeInUp");
-        }, 1000);
-        console.log("div was hovered");
-    });
-
+    if ($(window).width() > 1000) {
+        $(".c1").hover(function () {
+            $(".c1").toggleClass("c1hovered");
+            $(".bg1").toggleClass("bghovered");
+            $(".c2").toggleClass("c2hover");
+            $(".c3").toggleClass("c3hover");
+            $(".slidercontentleft").toggleClass("slidercontentup");
+            $(".slide2titleleft").toggleClass("slide2title");
+            setTimeout(function () {
+                $(".slide2titleleft").toggleClass("slide2titledisappear");
+            }, 500);
+            setTimeout(function () {
+                $(".textsl2left").toggleClass("textsl2appear");
+            }, 0);
+            setTimeout(function () {
+                $(".textsl2left").toggleClass("textsl2visible animated fadeInUp");
+            }, 500);
+            setTimeout(function () {
+                $(".btn2left").toggleClass("btn2display");
+            }, 0);
+            setTimeout(function () {
+                $(".btn2left").toggleClass("btn2appear animated fadeInUp");
+            }, 1000);
+            console.log("div was hovered");
+        });
+        $(".c2").hover(function () {
+            $(".c1").toggleClass("c1hover");
+            $(".bg2").toggleClass("bghovered");
+            $(".c2").toggleClass("c2hovered");
+            $(".c3").toggleClass("c3hover");
+            $(".slidercontentcenter").toggleClass("slidercontentup");
+            $(".slide2titlecenter").toggleClass("slide2title");
+            setTimeout(function () {
+                $(".slide2titlecenter").toggleClass("slide2titledisappear");
+            }, 500);
+            setTimeout(function () {
+                $(".textsl2center").toggleClass("textsl2appear");
+            }, 0);
+            setTimeout(function () {
+                $(".textsl2center").toggleClass("textsl2visible animated fadeInUp");
+            }, 500);
+            setTimeout(function () {
+                $(".btn2center").toggleClass("btn2display");
+            }, 0);
+            setTimeout(function () {
+                $(".btn2center").toggleClass("btn2appear animated fadeInUp");
+            }, 1000);
+            console.log("div was hovered");
+        });
+        $(".c3").hover(function () {
+            $(".c1").toggleClass("c1hover");
+            $(".bg3").toggleClass("bghovered");
+            $(".c2").toggleClass("c2hover");
+            $(".c3").toggleClass("c3hovered");
+            $(".slidercontentright").toggleClass("slidercontentup");
+            $(".slide2titleright").toggleClass("slide2title");
+            setTimeout(function () {
+                $(".slide2titleright").toggleClass("slide2titledisappear");
+            }, 500);
+            setTimeout(function () {
+                $(".textsl2right").toggleClass("textsl2appear");
+            }, 0);
+            setTimeout(function () {
+                $(".textsl2right").toggleClass("textsl2visible animated fadeInUp");
+            }, 500);
+            setTimeout(function () {
+                $(".btn2right").toggleClass("btn2display");
+            }, 0);
+            setTimeout(function () {
+                $(".btn2right").toggleClass("btn2appear animated fadeInUp");
+            }, 1000);
+            console.log("div was hovered");
+        });
+    }
     $(".price1").hover(function() {
         $(".abg1").toggleClass("priceonhover");
         $(".pricetext1").toggleClass("textvisibility");

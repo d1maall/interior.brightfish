@@ -5,61 +5,50 @@
 .menu1visible{
     display:block;
 }
+.btn2mob{display:block;}
+.title2mob{display: block;}
+.way-mob{display: block;}
+.titlegal .cherta {display: none;}
+.price-mob{display: block;}
+.prbigblock{display: none;}
 
-@media only screen and (min-width: 640px) {
-    /*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
 
-    /*ФОНОВЫЕ ИЗОБРАЖЕНИЯ*/
+
+@media only screen and (min-width: 320px) {
+
     .bgpic {
         background-image: url(./img/mobail-768/firstbg.jpg);
     }
-    .page3bg {
-        background-image: url(./img/mobail-768/holi2.jpg);
-    }
-    .page4bg {
-        background-image: url(./img/mobail-768/dust.jpg);
-    }
-    .page5bg {
-        background-image: url(./img/mobail-768/holi.jpg);
-    }
-    .page6bg {
-        background-image: url(./img/mobail-768/dust2.jpg);
-    }
-    .page7bg {
-        background-image: url(./img/mobail-768/dust1.jpg);
-    }
-    .page8bg {
-        background-image: url(./img/mobail-768/holi1.jpg);
-    }
-    .bg1 {
-        background-image: url(./img/mobail-768/left.jpg);
-    }
-    .bg2 {
-        background-image: url(./img/mobail-768/center.jpg);
-    }
-    .bg3 {
-        background-image: url(./img/mobail-768/right.jpg);
-    }
-    /*МЕНЮ*/
 
-    /*СЛАЙД 2*/
-
-    /*СЛАЙД 4*/
-
-    /*ГАЛЕРЕЯ*/
-
-    /*ПРАЙС*/
-
-    /*КАРТА*/
-
-    /*СЛАЙД 10*/
-
-    /*ТЕКСТ*/
-
-    /*КНОПКИ*/
-
-    /*СКРОЛ*/
-
+}
+@media only screen and (min-width: 750px) {
+    .page1{font-size: 7em;}
+    .title2mob{font-size: 0.7em;}
+    .title2{font-size: 0.5em;}
+    .btn2{font-weight: 400;font-size: 35%;padding-top: 10px;margin-left: 20%;width: 60%;}
+    .title{font-size: 4em;}
+    .text{font-size: 1.5em;}
+    .btn3{width: 30%;margin-left: 32%;font-weight: 400;}
+    .infogr{height: 15%;}
+    .icon{width: 50%;height: 100%;}
+    .text1{margin-top: -5%;margin-left: 30%;font-size: 1.3em;}
+    .btn4{width: 50%;margin-top: 15%;margin-left: 10%;font-size: 1.5em;}
+    .title5{font-size: 4em;}
+    .text5{font-size: 2em;}
+    .titleway{font-size: 4em;}
+    .way-mob{font-size: 1.6em}
+    .btn6{font-size: 2em;margin-left: 18%;}
+    .titlegal{font-size: 4em;}
+    .galtext{font-size: 1.3em;}
+    .galsl{margin-left: 20%;width: 90%;}
+    .titleprice{font-size: 4em;margin-top: 17%}
+    .price-mob li {font-size: 1.5em;}
+    .mapblock{top:20%;}
+    .titmap{font-size: 3em;font-weight: 300;}
+    .textmap{font-size: 1.5em;}
+    .contbl{font-size: 2em;}
+    .soctext{width: 50%;}
+    .js .menu_main a {font-size: 2em;}
 }
 
 @media only screen and (min-width: 1000px) {
@@ -73,31 +62,69 @@
     }
     .page3bg {
         background-image: url(./img/board-1280/holi2.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .page4bg {
         background-image: url(./img/board-1280/dust.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .page5bg {
         background-image: url(./img/board-1280/holi.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .page6bg {
         background-image: url(./img/board-1280/dust2.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .page7bg {
         background-image: url(./img/board-1280/dust1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .page8bg {
         background-image: url(./img/board-1280/holi1.jpg);
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .bg1 {
         background-image: url(./img/board-1280/left.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .bg2 {
         background-image: url(./img/board-1280/center.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .bg3 {
         background-image: url(./img/board-1280/right.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+    .white-popup-block{
+        background-image: url(./img/splashform.jpg);
+        background-position: right center;
+        background-size:  auto 100%;
+        background-repeat: no-repeat;
+        width: 40%;
+    }
+    form{margin-left: 25%;}
+    .titleform{font-size: 3em;}
+    input{width: 40%;}
+    .knopka{width: 40%;}
 
     /*МЕНЮ*/
     .menu2visible{
@@ -106,24 +133,95 @@
     .menu1visible{
         display:none;
     }
+    .scroll{width: 10%;}
+    .titlepage1{margin-top:15%;width:80%;margin-left: 10%;}
+    .btnpage1{width:24%;font-size: 20%;}
+    .btn2mob{display: none;}
+    .title2mob{display: none;}
+    .leftpart{height: 33.33%;}
+    .centerpart{width: 33.33%;}
+    .rightpart{height: 33.33%;}
+    .icon1{width:100%;display: block;}
+    .icon1 img{height:100%;}
+    .btn2{font-size: 35%;margin-left: 25%;width: 50%;margin-top: 5%;opacity: 0;font-weight: 200;}
+    .slidercontent {height: 30vh;margin-top: 35vh;margin-left: 5%;text-align: center;}
+    .c1 {height: 100vh;width: 33%;}
+    .bg1 {height: 100%;}
+    .c2 {height: 100vh;width: 34%;}
+    .bg2 {height: 100%;}
+    .c3 {margin: 0;height:100vh;width: 33%;}
+    .bg3 {height: 100%;}
+    .slidercontentup {margin-top: 25%;}
+    .lefthalf{width: 60%;}
+    .title{font-size: 2.7em;font-weight: 200;opacity: 0;margin-top: 10%;}
+    .text{opacity: 0;font-size: 1.25em;font-weight: 200;line-height: 1.7em}
+    .btn3{width: 28%;opacity: 0;padding: 10px 10px 10px 10px;margin-left: 10%;margin-top: 7%;font-weight: 200;}
+    .sc3{opacity: 0;left: 80%;}
+    .infogr{display: block;opacity: 0;width: 14%;height: 100%;}
+    .infograffirst{margin-left: 10%}
+    .icon{width:100%;height: 50%;}
+    .text1{margin-top: 5%;margin-left: 0;}
+    .btn4{width: 28%;padding: 10px 10px 10px 10px;margin-left: 10%;opacity: 0;margin-top: 5%;}
+    .sc4{opacity: 0;}
+    .title5{font-size: 2.3em;opacity: 0;font-weight: 200;}
+    .text5{font-size: 1.5em;opacity: 0;font-weight: 200;}
+    .btn{opacity: 0;width: 32%;margin-left: 10%;font-weight: 200;}
+    .sc5{left: 80%;opacity: 0;}
+    .way-mob{display: none;}
+    .titleway{font-weight: 200;font-size: 2.7em;margin-top: 8%;opacity: 0;}
+    .btn6{margin-top: 5%;opacity: 0;width: 28%;font-weight: 200;margin-left: 35%;}
+    .sc6{opacity: 0;}
+    .titlegal .cherta{display: block;}
+    .titlegal{font-size: 2.7em;font-weight: 200;margin-top: 8%;}
+    .galtext{font-size: 1.5em;width: 30%;font-weight: 200;}
+    .galsl{width:60%;margin-top: -20%;}
+    .price-mob{display: none;}
+    .prbigblock{display: block;}
+    .titleprice{margin-top: 8%;font-size: 2.7em;font-weight: 200;}
+    .btn8{width: 24%;margin-left:36%}
+    .map {
+        background-image: url(./img/map1280.jpg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mapblock {
+        width: 25%;/*25*/
+        height: 60%;/*60*/
+        top:25%;/*25*/
+        border: 7px solid #ffcc01;/*7*/
+        border-right: none;
+        right:0;
+        left:75%;
+    }
+    .titmap{font-size: 2.5em;font-weight: 200;}
+    .textmap{font-size: 1em;font-weight: 200;}
+    .contbl{font-size: 1.1em;}
+    .socialblock{
+        margin-left: 2% ;
+        margin-top: 9%;
+        width: 15%;
+        height: 45%;
 
-    /*СЛАЙД 2*/
+    }
+    .blockicon{
+        width: 100%;/*100*/
+        height:55%;/*55*/
+        margin-top: 10%;/*10*/
+        margin-left: 0;/*0*/
+    }
+    .icon10{
+        width:100%;/*100*/
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .socfirst{margin-left: 15%;}
 
-    /*СЛАЙД 4*/
+    .appear {
+        opacity: 1;
+        transition: 2s;
+    }
 
-    /*ГАЛЕРЕЯ*/
-
-    /*ПРАЙС*/
-
-    /*КАРТА*/
-
-    /*СЛАЙД 10*/
-
-    /*ТЕКСТ*/
-
-    /*КНОПКИ*/
-
-    /*СКРОЛ*/
 }
 
 @media only screen and (min-width: 1300px) {
@@ -161,6 +259,12 @@
     }
     .bg3 {
         background-image: url(./img/notebook-1680/right.jpg);
+    }
+    .map {
+        background-image: url(./img/map1680.jpg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     /*МЕНЮ*/
@@ -222,27 +326,18 @@
     .bg3 {
         background-image: url(./img/tv-2048/right.jpg);
     }
+    .map {
+        background-image: url(./img/map2048.jpg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     /*МЕНЮ*/
     .menuvisible{
         display: block;
     }
-    /*СЛАЙД 2*/
-
-    /*СЛАЙД 4*/
-
-    /*ГАЛЕРЕЯ*/
-
-    /*ПРАЙС*/
-
-    /*КАРТА*/
-
-    /*СЛАЙД 10*/
-
-    /*ТЕКСТ*/
-
-    /*КНОПКИ*/
-
-    /*СКРОЛ*/
+   .galsl{margin-top: -15%;}
+   .prbigtext{margin-top: 14%}
 }
 
 

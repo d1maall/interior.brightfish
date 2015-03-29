@@ -43,7 +43,7 @@
 form {
     background-color: #ffffff;
     width: 50%;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 
 fieldset {
@@ -68,12 +68,8 @@ fieldset {
 
 .white-popup-block {
     position: relative;
-    background-image: url(./img/splashform.jpg);
-    background-position: right center;
-    background-size:  auto 100%;
-    background-repeat: no-repeat;
     background-color: #fff;
-    width: 40%;
+    width: 85%;
     height: 60%;
     padding: 3% 3% 3% 3%;
 }
@@ -115,7 +111,7 @@ fieldset {
 .knopka{
     border: #2c2c2c solid 1px;
     font-family: 'Clear Sans';
-    width: 40%;
+    width: 70%;
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
@@ -145,7 +141,7 @@ fieldset {
     outline: none;
 }
 input {
-    width : 40%;
+    width : 100%;
     font-size   : 110%;
     border-radius: 0px;
     border-top: transparent solid  1px;
