@@ -325,13 +325,13 @@
 .btn4 {
 
     font-family: 'Roboto';
-    font-weight: 300;
+    font-weight: 400;
     color: #FFCC01;
-    font-size: 1.1em;
-    padding: 5px 5px 5px 5px;
-    border: solid #fff 1px;
+    font-size: 1.2em;
+    padding: 10px 10px 10px 10px;
+    border: solid #fff 2px;
     text-decoration: none;
-    margin-left: 10%;
+    margin-left: 30% !important;
     /*margin-right: 40%;*/
     width: 80%;
     text-align: center;
@@ -367,9 +367,9 @@
     font-family: 'Roboto';
     font-weight: 400;
     color: #FFCC01;
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding: 10px 5px 10px 5px;
-    border: solid #fff 1px;
+    border: solid #fff 2px;
     text-decoration: none;
     margin-left: 15%;
     width: 70%;
@@ -434,12 +434,12 @@
     font-family: 'Roboto';
     font-weight: 400;
     color: #FFCC01;
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 5px 10px 5px 10px;
-    border: solid #ffffff 1px;
+    border: solid #ffffff 2px;
     text-decoration: none;
     margin-left: 10%;
-    width: 70%;/*28*/
+    width: 80%;/*28*/
     text-align: center;
     cursor: pointer;
     transition: 0.5s ease-in-out;
@@ -977,7 +977,7 @@ The white stripes in the hamburger button
     color:#FFFFff;
 }
 .price-mob ul {margin-left: 2%;margin-top:10%;margin-bottom: 10%;}
-.price-mob li {margin-top: 2%;font-size: 1.2em;font-weight: 400;font-family: "Clear Sans", sans-serif;}
+.price-mob li {margin-top: 2%;font-size: 3em!important;font-weight: 400!important;font-family: "Clear Sans", sans-serif;}
 
 
  /*--------------------------------------------slider----------------------------------------------------*/
@@ -1217,7 +1217,7 @@ body {
     margin-right:10% ;
     color: #e7e7e7;
     text-align: left ;
-    font-size: 1em;
+    font-size: 2.3em!important;
     font-weight: 400;
     /*line-height: 1.7em;*/
     font-family: "Clear Sans";
@@ -1237,10 +1237,10 @@ body {
 .text1{
     /* padding-left:20%;
      padding-right: 20%;*/
-    margin-top: -7%;
+    margin-top: -6%;
     color: #e7e7e7;
     text-align: justify ;
-    font-size: 1.3em;
+    font-size: 3em!important;
     font-weight: 300;
     font-family: "Clear Sans";
     width: 60%;
@@ -1388,7 +1388,7 @@ body {
     height: 100%;
     position: absolute;
     color: #FFFFff;
-    font-size: 1.8em;
+    font-size: 3em!important;
     font-family: "Clear Sans";
     font-weight: 200;
     margin-left: 5%;

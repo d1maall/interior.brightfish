@@ -167,14 +167,14 @@
     .slidercontentup {margin-top: 25%;}
     .lefthalf{width: 60%;}
     .title{font-size: 2.7em;font-weight: 200;opacity: 0;margin-top: 10%;}
-    .text{opacity: 0;font-size: 1.25em;font-weight: 200;line-height: 1.7em}
-    .btn3{width: 28%;opacity: 0;padding: 10px 10px 10px 10px;margin-left: 10%;margin-top: 7%;font-weight: 200;}
+    .text{opacity: 0;font-size: 1.1em!important;font-weight: 200;line-height: 1.7em}
+    .btn3{width: 28%;opacity: 0;padding: 10px 10px 10px 10px;margin-left: 10%;margin-top: 7%;font-weight: 200;font-size: 1.5em;border: solid #ffffff 1px;}
     .sc3{opacity: 0;left: 80%;}
     .infogr{display: block;opacity: 0;width: 14%;height: 100%;}
     .infograffirst{margin-left: 10%}
     .icon{width:100%;height: 50%;}
-    .text1{margin-top: 5%;margin-left: 0;}
-    .btn4{width: 28%;padding: 10px 10px 10px 10px;margin-left: 10%;opacity: 0;margin-top: 5%;}
+    .text1{margin-top: 5%;margin-left: 0;font-size: 1.2em!important;}
+    .btn4{width: 28%;padding: 10px 10px 10px 10px;margin-left: 10%!important;opacity: 0;margin-top: 5%;border: solid #fff 1px;font-weight: 200;}
     .sc4{opacity: 0;}
     .title5{font-size: 2.3em;opacity: 0;font-weight: 200;}
     .text5{font-size: 1.5em;opacity: 0;font-weight: 200;}
@@ -182,7 +182,7 @@
     .sc5{left: 80%;opacity: 0;}
     .way-mob{display: none;}
     .titleway{font-weight: 200;font-size: 2.7em;margin-top: 8%;opacity: 0;}
-    .btn6{margin-top: 5%;opacity: 0;width: 28%;font-weight: 200;margin-left: 35%;}
+    .btn6{margin-top: 5%;opacity: 0;width: 28%;font-weight: 200;margin-left: 35%;font-size: 1.5em!important;}
     .sc6{opacity: 0;}
     .titlegal .cherta{display: block;}
     .titlegal{font-size: 2.7em;font-weight: 200;margin-top: 8%;}
@@ -191,7 +191,7 @@
     .price-mob{display: none;}
     .prbigblock{display: block;}
     .titleprice{margin-top: 8%;font-size: 2.7em;font-weight: 200;}
-    .btn8{width: 24%;margin-left:36%}
+    .btn8{width: 24%;margin-left:36%;font-size: 1.5em!important;font-weight: 200!important;border: solid #ffffff 1px;}
     .map {
         background-image: url(./img/map1280.jpg);
         background-position: left center;
