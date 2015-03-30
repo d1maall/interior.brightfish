@@ -12,10 +12,22 @@
 .price-mob{display: block;}
 .prbigblock{display: none;}
 .fotorama__fullscreen-icon{
-    top:15px;
-    right:15px;
-    transform: scale(4.0, 4.0);
--webkit-transform:scale(4.0, 4.0);
+    transform: scale(2.0, 2.0) !important;
+    -webkit-transform: scale(2.0, 2.0) !important;
+    position: absolute;
+    background: url("img/cross-24-512.png");
+    background-size: 64px 64px;
+    background-position: 0px 0px !important;
+    width: 64px;
+    height: 64px;
+    top: 32px;
+    right: 32px;
+    z-index: 99;
+    display: none;
+}
+
+.fotorama__fullscreen-icon__visible {
+    display: block;
 }
 
 
@@ -132,12 +144,12 @@
         background-position: right center;
         background-size:  auto 100%;
         background-repeat: no-repeat;
-        width: 40%;
+        width: 40%!important;
     }
-    form{margin-left: 25%;}
-    .titleform{font-size: 3em;}
-    input{width: 40%;}
-    .knopka{width: 40%;}
+    form{margin-left: 25%!important;}
+    .titleform{font-size: 3em;text-align: left!important;}
+    input{width: 40%!important;}
+    .knopka{width: 40%; margin-left: 0;}
 
     /*МЕНЮ*/
     .menu2visible{
@@ -229,6 +241,21 @@
         margin-top: 5%;
     }
     .socfirst{margin-left: 15%;}
+
+    .fotorama__fullscreen-icon{
+        transform: scale(2.0, 2.0) !important;
+        -webkit-transform: scale(2.0, 2.0) !important;
+        position: absolute;
+        background-position: 0px 0px !important;
+        background: url("img/cross-24-512.png");
+        background-size: 8px 8px;
+        width: 8px;
+        height: 8px;
+        top: 16px;
+        right: 16px;
+        z-index: 99;
+        display: none;
+    }
 
     .appear {
         opacity: 1;
