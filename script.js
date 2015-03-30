@@ -65,12 +65,16 @@ $(document).ready(function() {
                 'fotorama:fullscreenenter', function(){
                     $.fn.fullpage.setAllowScrolling(false);
                     $.fn.fullpage.setKeyboardScrolling(false);
+                    $(".fotorama__fullscreen-icon").addClass("fotorama__fullscreen-icon__visible");
                 }
             );
             $('.fotorama').on(
                 'fotorama:fullscreenexit', function(){
                     $.fn.fullpage.setAllowScrolling(true);
                     $.fn.fullpage.setKeyboardScrolling(true);
+                    if ($(".fotorama__fullscreen-icon").hasClass("fotorama__fullscreen-icon__visible")) {
+                        $(".fotorama__fullscreen-icon").removeClass("fotorama__fullscreen-icon__visible");
+                    };
                 }
             );
             // 1. Initialize fotorama manually.
@@ -79,7 +83,8 @@ $(document).ready(function() {
                 width: '90%',
                 height: '60%',
                 nav: 'thumbs',
-                allowfullscreen: true
+                allowfullscreen: true,
+                arrows: 'always'
             });
             // 2. Get the API object.
             var fotorama = $customFotorama.data('fotorama');

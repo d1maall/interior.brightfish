@@ -11,24 +11,7 @@
 .titlegal .cherta {display: none;}
 .price-mob{display: block;}
 .prbigblock{display: none;}
-.fotorama__fullscreen-icon{
-    transform: scale(2.0, 2.0) !important;
-    -webkit-transform: scale(2.0, 2.0) !important;
-    position: absolute;
-    background: url("img/cross-24-512.png");
-    background-size: 64px 64px;
-    background-position: 0px 0px !important;
-    width: 64px;
-    height: 64px;
-    top: 32px;
-    right: 32px;
-    z-index: 99;
-    display: none;
-}
 
-.fotorama__fullscreen-icon__visible {
-    display: block;
-}
 
 
 
@@ -38,7 +21,24 @@
     .bgpic {
         background-image: url(./img/mobail-768/firstbg.jpg);
     }
+    .fotorama__fullscreen-icon{
+        transform: scale(2.0, 2.0) !important;
+        -webkit-transform: scale(2.0, 2.0) !important;
+        position: absolute;
+        background: url("img/cross-24-512.png");
+        background-size: 64px 64px;
+        background-position: 0px 0px !important;
+        width: 64px;
+        height: 64px;
+        top: 32px;
+        right: 32px;
+        z-index: 99;
+        display: none;
+    }
 
+    .fotorama__fullscreen-icon__visible {
+        display: block;
+    }
 }
 @media only screen and (min-width: 750px) {
     .page1{font-size: 7em;}
@@ -255,6 +255,9 @@
         right: 16px;
         z-index: 99;
         display: none;
+    }
+    .fotorama__fullscreen-icon__visible {
+        display: block;
     }
 
     .appear {
