@@ -11,6 +11,13 @@
 .titlegal .cherta {display: none;}
 .price-mob{display: block;}
 .prbigblock{display: none;}
+.fotorama__fullscreen-icon{
+    top:15px;
+    right:15px;
+    transform: scale(4.0, 4.0);
+-webkit-transform:scale(4.0, 4.0);
+}
+
 
 
 
@@ -52,6 +59,12 @@
 }
 
 @media only screen and (min-width: 1000px) {
+    .fotorama__fullscreen-icon{
+        top:1px;
+        right:1px
+        transform: scale(1.0, 1.0);
+    -webkit-transform: scale(1.0, 1.0);
+    }
 
     /*Планшеты в режиме portrait.*/
 
