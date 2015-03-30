@@ -331,6 +331,25 @@
     /*КНОПКИ*/
 
     /*СКРОЛ*/
+
+    .fotorama__fullscreen-icon{
+        /*transform: scale(2.0, 2.0) !important;
+        -webkit-transform: scale(2.0, 2.0) !important;*/
+        position: absolute;
+        background: url("img/cross-24-512.png") !important;
+        background-size: 64px 64px !important;
+        background-position: 0px 0px !important;
+        width: 64px !important;
+        height: 64px !important;
+        top: 32px !important;
+        right: 32px !important;
+        z-index: 99;
+        display: none;
+    }
+
+    .fotorama__fullscreen-icon__visible {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 1900px) {
